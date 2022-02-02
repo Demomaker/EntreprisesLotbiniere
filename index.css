@@ -1,0 +1,77 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.companyList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+@media print {
+    .companyList {
+        display: block;
+    }
+
+    .company {
+        border-style: none;
+        overflow: hidden;
+    }
+
+    .domainDiv, .municipalityDiv {
+        page-break-before: always;
+    }
+
+    .municipalityDiv :nth-child(6n), .domainDiv :nth-child(6n) {
+        page-break-after: always;
+    }
+
+    body {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .companyList {
+        grid-template-columns: auto auto;
+    }     
+}
+
+@media print and (max-width: 1400px) {
+    .companyList {
+        grid-template-columns: auto auto;
+    }     
+}
+
+@media screen and (max-width: 1000px) {
+    .companyList {
+        grid-template-columns: auto;
+    }     
+}
+
+@media print and (max-width: 1000px) {
+    .companyList {
+        grid-template-columns: auto;
+    }     
+}
+
+.domainHeading, .municipalityHeading {
+    grid-column: 1 / -1;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    overflow: hidden;
+}
+
+.company {
+    width: 100%;
+    border-style: dashed;
+}
+
+.companyTable {
+    width: 100%;
+}
