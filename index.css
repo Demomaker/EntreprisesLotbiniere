@@ -10,6 +10,10 @@ html, body {
     padding: 10px;
 }
 
+.domainDiv, .municipalityDiv {
+    padding: 10px;
+}
+
 @media print {
     .companyList {
         display: block;
@@ -74,4 +78,14 @@ html, body {
 
 .companyTable {
     width: 100%;
+}
+
+.contactData {
+    vertical-align: center;
+    text-align: left;
+}
+
+.companyInfo {
+    vertical-align: center;
+    text-align: right;
 }

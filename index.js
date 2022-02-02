@@ -49,7 +49,9 @@ function getMunicipalities(companies) {
 }
 
 function sortAlphabetically(companies) {
-    [].slice.call(companies).sort(function (a, b) {
+    let companiesArray = Array.from(companies);
+    console.log("companies Array : " + companiesArray.length);
+    companiesArray.sort(function (a, b) {
         let aName = a.getElementsByClassName('companyHeader')[0].innerText;
         let bName = b.getElementsByClassName('companyHeader')[0].innerText;
         if (aName < bName) {
@@ -64,11 +66,12 @@ function sortAlphabetically(companies) {
       });
 
       let newCompanyElements = document.getElementsByClassName('company');
+      let copy = Array.from(newCompanyElements);
       let companyList = document.getElementsByClassName('companyList')[0];
       for(let i = 0; i < newCompanyElements.length; i++) {
         companyList.removeChild(newCompanyElements[i]);
       }
-    return newCompanyElements;
+    return copy;
 }
 
 function sortByDomain(domains, companies) {
@@ -84,13 +87,16 @@ function sortByDomain(domains, companies) {
         let elementToBePushed = document.createElement('div');
         elementToBePushed.classList.add('domainDiv');
         elementToBePushed.appendChild(formattedDomain);
+        let count = 0;
         for(let j = 0; j < companiesArray.length; j++) {
             let company = companiesArray[j];
             let companyDomain = company.getElementsByClassName('domaine')[0].innerText.trim();
             if(companyDomain === currentDomain) {
                 elementToBePushed.appendChild(company);
+                count++;
             }
         }
+        formattedDomain.innerText = formattedDomain.innerText + " - Quantité d'entreprises : " + count;
         companyList.appendChild(elementToBePushed);
     }
 
@@ -115,6 +121,10 @@ function sortByDomain(domains, companies) {
         for(let i = 0; i < companiesArray.length; i++) {
             let company = companiesArray[i];
             let parentNode = company.parentNode;
+            if(parentNode === null || parentNode === undefined) {
+                elementToBePushed.appendChild(company);
+                continue;
+            }
             let parentClassList = parentNode.className;
             if(parentClassList.indexOf('domainDiv') <= -1) {
                 elementToBePushed.appendChild(company);
@@ -138,13 +148,16 @@ function sortAndAddByMunicipality(municipalities, companies) {
         let elementToBePushed = document.createElement('div');
         elementToBePushed.classList.add('municipalityDiv');
         elementToBePushed.appendChild(formattedMunicipality);
+        let count = 0;
         for(let j = 0; j < companiesArray.length; j++) {
             let company = companiesArray[j];
             let companyInfo = company.getElementsByTagName('td')[0].innerText;
             if(companyInfo.indexOf(currentMunicipality) > -1 || companyInfo.indexOf(currentPostalCode) > -1) {
                 elementToBePushed.appendChild(company);
+                count++;
             }
         }
+        formattedMunicipality.innerText = formattedMunicipality.innerText + " - Quantité d'entreprises : " + count;
         companyList.appendChild(elementToBePushed);
     }
 
@@ -159,6 +172,7 @@ function sortAndAddByMunicipality(municipalities, companies) {
         }
     }
 
+
     if(hasCompaniesWithNoMunicipality) {
         let formattedMunicipality = document.createElement('div');
         formattedMunicipality.classList.add('municipalityHeading');
@@ -169,6 +183,11 @@ function sortAndAddByMunicipality(municipalities, companies) {
         for(let i = 0; i < companiesArray.length; i++) {
             let company = companiesArray[i];
             let parentNode = company.parentNode;
+            if(parentNode === null || parentNode === undefined) {
+                elementToBePushed.appendChild(company);
+                continue;
+            }
+
             let parentClassList = parentNode.className;
             if(parentClassList.indexOf('municipalityDiv') <= -1) {
                 elementToBePushed.appendChild(company);
@@ -176,10 +195,15 @@ function sortAndAddByMunicipality(municipalities, companies) {
         }
         companyList.appendChild(elementToBePushed);
     }
+
+    
+    console.log("Amount of companies now : " + companyList.getElementsByClassName('company').length);
 }
 
 function sort(companies) {
+    console.log("Amount of companies now : " + companies.length);
     let alphabeticallySortedCompanies = sortAlphabetically(companies);
+    console.log("Amount of companies now : " + alphabeticallySortedCompanies.length);
     let mode = getParameter('mode');
     if( mode == 1 ) {
         let domains = getDomains(companies);
@@ -191,10 +215,16 @@ function sort(companies) {
     }
 }
 
-let companies = document.getElementsByClassName('company');
-let companyList = document.getElementsByClassName('companyList')[0];
-for(let i = 0; i < companies.length; i++) {
-    companies[i].remove();
+
+function sortCompanies() {
+    let companies = document.querySelectorAll('.company');
+    let companyList = document.getElementsByClassName('companyList')[0];
+    console.log("Amount of companies now : " + companies.length);
+    for(let i = 0; i < companies.length; i++) {
+        companyList.removeChild(companies[i]);
+    }
+    console.log("Amount of companies now : " + companies.length);
+    sort(companies);
 }
 
-let sortedCompanies = sort(companies);
+sortCompanies();

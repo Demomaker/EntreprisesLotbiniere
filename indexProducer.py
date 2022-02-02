@@ -1,7 +1,7 @@
 
 def getDataFromFile(url) :
     with open(r"" + url + "", "r+", encoding="utf8") as file:
-        data = file.read()
+        data = file.read(999999999)
     return data
 
 def getFormattedDataForHTMLDocument(data) :
@@ -116,16 +116,16 @@ def replaceClasses(data):
         resultingData = resultingData[0:startIndex] + '<span class="employesHeader">NOMBRE D’EMPLOI :</span>' + resultingData[endIndex:]
 
     currentIndex = 0
-    while 'td' in resultingData :
-        currentIndex = resultingData.find('td', currentIndex) + len('td ')
-        resultingData = resultingData[0:currentIndex] + 'class="contactData"' + resultingData[currentIndex:]
-        currentIndex = resultingData.find('td', currentIndex) + len('td ')
+    while resultingData.find('<td', currentIndex) > -1 :
+        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
+        resultingData = resultingData[0:currentIndex] + 'class="contactData" ' + resultingData[currentIndex:]
+        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
 
-    currentIndex = resultingData.find('td', currentIndex) + len('td ')
-    while 'td' in resultingData :
-        currentIndex = resultingData.find('td', currentIndex) + len('td ')
-        resultingData = resultingData[0:currentIndex] + 'class="companyInfo"' + resultingData[currentIndex:]
-        currentIndex = resultingData.find('td', currentIndex) + len('td ')
+    currentIndex = 0
+    while resultingData.find('<td', currentIndex) > -1 :
+        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
+        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
+        resultingData = resultingData[0:currentIndex] + 'class="companyInfo" ' + resultingData[currentIndex:]
     return resultingData
 
 def redoStyling(data) :
