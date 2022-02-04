@@ -10,7 +10,7 @@ def getFormattedDataForHTMLDocument(data) :
     title = '<title>Annuaire d\'entreprises imprimable</title>\n'
     description = '<meta name="description" content="Juste un annuaire d\'entreprises imprimable de la MRC de Lotbinière">\n'
     viewport = '<meta name="viewport" content="width=device-width">\n'
-    css = '<link rel="stylesheet" media="screen" href="index.css">'
+    css = '<link rel="stylesheet" href="index.css">'
     head = "<head>\n\t\t\t\t" + utf8meta + compatible + title + description + viewport + css + "\n</head>\n" 
     script = '\n<script src="index.js"></script>\n'
     body = "<body>\n" + data + script + "\n</body>"
@@ -126,6 +126,12 @@ def replaceClasses(data):
         currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
         currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
         resultingData = resultingData[0:currentIndex] + 'class="companyInfo" ' + resultingData[currentIndex:]
+
+    currentIndex = 0
+    while resultingData.find('</tr', currentIndex) > -1 :
+        currentIndex = resultingData.find('</tr', currentIndex)
+        resultingData = resultingData[0:currentIndex] + '</td>' + resultingData[currentIndex:]
+        currentIndex = currentIndex + len('</td></tr')
     return resultingData
 
 def redoStyling(data) :
@@ -133,4 +139,15 @@ def redoStyling(data) :
     newData = replaceClasses(newData)
     return newData
 
-createIndex(redoStyling(getEntreprises(getDataFromFile("Entreprises.html"))))
+import urllib.request, urllib.error, urllib.parse
+
+url = 'https://www.mrclotbiniere.org/services-au-entreprise/repertoires/repertoire-des-entreprises/?domaines=0&municipalites=0'
+
+response = urllib.request.urlopen(url)
+webContent = response.read().decode('UTF-8')
+tempFileName = 'Entreprises.html'
+
+with open(tempFileName, 'w', encoding='utf-8') as file:
+    file.write(webContent)
+
+createIndex(redoStyling(getEntreprises(getDataFromFile(tempFileName))))

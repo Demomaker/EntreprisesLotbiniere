@@ -6,59 +6,25 @@ html, body {
 
 .companyList {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-}
-
-.domainDiv, .municipalityDiv {
+    grid-template-columns: auto;
     padding: 10px;
 }
 
 @media print {
-    .companyList {
-        display: block;
-    }
-
-    .company {
-        border-style: none;
-        overflow: hidden;
-    }
-
-    .domainDiv, .municipalityDiv {
-        page-break-before: always;
-    }
-
-    .municipalityDiv :nth-child(6n), .domainDiv :nth-child(6n) {
+    .municipalityDiv {
         page-break-after: always;
     }
 
-    body {
-        overflow: visible;
+    .company {
+        page-break-inside: avoid;
     }
-}
 
-@media screen and (max-width: 1400px) {
-    .companyList {
-        grid-template-columns: auto auto;
-    }     
-}
-
-@media print and (max-width: 1400px) {
-    .companyList {
-        grid-template-columns: auto auto;
-    }     
-}
-
-@media screen and (max-width: 1000px) {
-    .companyList {
-        grid-template-columns: auto;
-    }     
-}
-
-@media print and (max-width: 1000px) {
-    .companyList {
-        grid-template-columns: auto;
-    }     
+    .companyList {        
+        display: initial;
+        margin-right: 10px;
+        overflow: visible;
+        float: none;
+    }
 }
 
 .domainHeading, .municipalityHeading {
@@ -73,7 +39,9 @@ html, body {
 
 .company {
     width: 100%;
-    border-style: dashed;
+    border-style: dashed !important;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 .companyTable {
