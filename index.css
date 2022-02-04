@@ -11,7 +11,7 @@ html, body {
 }
 
 @media print {
-    .municipalityDiv {
+    .municipalityDiv, .domainDiv {
         page-break-after: always;
     }
 

@@ -82,7 +82,7 @@ def replaceClasses(data):
     endIndex = 0
     while resultingData.find('<span class="texteboldtableau">SERVICES : </span>', endIndex) != -1:
         startIndex = resultingData.find('<span class="texteboldtableau">SERVICES : </span>', endIndex) + len('<span class="texteboldtableau">SERVICES : </span>')
-        endIndex = resultingData.find('<br>', startIndex)
+        endIndex = resultingData.find('<br/>', startIndex)
         resultingData = resultingData[0:startIndex] + '<span class="service">' + resultingData[startIndex:endIndex] + '</span>' + resultingData[endIndex:]
     
     
@@ -90,7 +90,7 @@ def replaceClasses(data):
     endIndex = 0
     while resultingData.find('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>', endIndex) != -1:
         startIndex = resultingData.find('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>', endIndex) + len('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>')
-        endIndex = resultingData.find('<br>', startIndex)
+        endIndex = resultingData.find('<br/>', startIndex)
         resultingData = resultingData[0:startIndex] + '<span class="domaine">' + resultingData[startIndex:endIndex] + '</span>' + resultingData[endIndex:]
     
     startIndex = 0
