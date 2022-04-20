@@ -48,6 +48,26 @@ function getMunicipalities(companies) {
     return municipalities;
 }
 
+function filterByMunicipality(municipality) {
+    const municipalityDivs = document.getElementsByClassName("municipalityDiv");
+    console.log(municipalityDivs);
+    for (let i = 0; i < municipalityDivs.length; i++) {
+        let municipalityDiv = municipalityDivs[i];
+        if(municipalityDiv.getAttribute("municipality") !== municipality)
+            municipalityDiv.hidden = true;
+    }
+    return municipalityDivs[municipality];
+}
+
+function filterByDomain(domain) {
+    const domainDivs = document.getElementsByClassName("domainDiv");
+    for(let i = 0; i < domainDivs.length; i++) {
+        let domainDiv = domainDivs[i];
+        if(domainDiv.getAttribute("domain") !== domain)
+            domainDiv.hidden = true;
+    }
+}
+
 function sortAlphabetically(companies) {
     let companiesArray = Array.from(companies);
     console.log("companies Array : " + companiesArray.length);
@@ -97,6 +117,7 @@ function sortByDomain(domains, companies) {
             }
         }
         formattedDomain.innerText = formattedDomain.innerText + " - Quantité d'entreprises : " + count;
+        elementToBePushed.setAttribute("domain", currentMunicipality);
         companyList.appendChild(elementToBePushed);
     }
 
@@ -158,6 +179,7 @@ function sortAndAddByMunicipality(municipalities, companies) {
             }
         }
         formattedMunicipality.innerText = formattedMunicipality.innerText + " - Quantité d'entreprises : " + count;
+        elementToBePushed.setAttribute("municipality", currentMunicipality);
         companyList.appendChild(elementToBePushed);
     }
 
@@ -208,10 +230,16 @@ function sort(companies) {
     if( mode == 1 ) {
         let domains = getDomains(companies);
         sortByDomain(domains, alphabeticallySortedCompanies);
+        const filteredDomain = getParameter('domain');
+        if(filteredDomain)
+            filterByDomain(filteredDomain);
     }
     else {
         let municipalities = getMunicipalities(companies);
         sortAndAddByMunicipality(municipalities, alphabeticallySortedCompanies);
+        const filteredMunicipality = getParameter('municipality');
+        if(filteredMunicipality)
+            filterByMunicipality(filteredMunicipality);
     }
 }
 
