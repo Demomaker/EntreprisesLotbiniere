@@ -13,6 +13,28 @@ getParameter = (key) => {
     return parameterList.get(key)
 }
 
+function getVariants()  {
+    return {
+    'Dosquet' : ['Dosquet'],
+    'Laurier-Station' : ['Laurier', 'Laurier-Station'],
+    'Leclercville': ['Leclercville'],
+    'N.-D.-S.-C. d\'Issoudun' : ['N.-D.-S.-C. d\'Issoudun', 'Issoudun'],
+    'Saint-Agapit' : ['Saint-Agapit', 'St-Agapit'],
+    'Saint-Antoine-de-Tilly' : ['Saint-Antoine-de-Tilly', 'Saint-Antoine', 'St-Antoine-de-Tilly', 'St-Antoine'],
+    'Saint-Apollinaire' : ['Saint-Apollinaire', 'St-Apo', 'Saint-Apo', 'St-Apollinaire'],
+    'Sainte-Agathe-de-Lotbinière' : ['Sainte-Agathe-de-Lotbinière','Sainte-Agathe', 'Saint-Agathe', 'St-Agathe', 'Ste-Agathe', 'Ste-Agathe-de-Lotbinière'],
+    'Sainte-Croix' : ['Sainte-Croix', 'Ste-Croix'],
+    'Saint-Édouard-de-Lotbinière' : ['Saint-Édouard-de-Lotbinière', 'Saint-Édouard', 'St-Édouard'],
+    'Saint-Flavien' : ['Saint-Flavien', 'St-Flavien'],
+    'Saint-Gilles' : ['Saint-Gilles', 'St-Gilles'],
+    'Saint-Janvier-de-Joly' : ['Saint-Janvier-de-Joly', 'Joly', 'St-Janvier-de-Joly', 'St-Janvier'],
+    'Saint-Narcisse-de-Beaurivage' : ['Saint-Narcisse-de-Beaurivage', 'Saint-Narcisse', 'St-Narcisse', 'St-Narcisse-de-Beaurivage'],
+    'Saint-Patrice-de-Beaurivage' : ['Saint-Patrice-de-Beaurivage', 'Saint-Patrice', 'St-Patrice', 'St-Patrice-de-Beaurivage'],
+    'Saint-Sylvestre' : ['Saint-Sylvestre', 'St-Sylvestre'],
+    'Val-Alain' : ['Val-Alain']
+    }
+}
+
 function getDomains(companies) {
     let domains = [];
     for(let i = 0; i < companies.length; i++) {
@@ -48,12 +70,24 @@ function getMunicipalities(companies) {
     return municipalities;
 }
 
+function isSameMunicipality(municipality, value) {
+    const municipalityVariants = getVariants()[municipality];
+    if(municipalityVariants)
+    for(let i = 0; i < municipalityVariants.length; i++) {
+        const municipalityVariant = municipalityVariants[i];
+        if(municipalityVariant.toLowerCase() === value.toLowerCase()) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
 function filterByMunicipality(municipality) {
     const municipalityDivs = document.getElementsByClassName("municipalityDiv");
-    console.log(municipalityDivs);
     for (let i = 0; i < municipalityDivs.length; i++) {
         let municipalityDiv = municipalityDivs[i];
-        if(municipalityDiv.getAttribute("municipality") !== municipality)
+        if(!isSameMunicipality(municipalityDiv.getAttribute("municipality"), municipality))
             municipalityDiv.hidden = true;
     }
     return municipalityDivs[municipality];
@@ -63,14 +97,13 @@ function filterByDomain(domain) {
     const domainDivs = document.getElementsByClassName("domainDiv");
     for(let i = 0; i < domainDivs.length; i++) {
         let domainDiv = domainDivs[i];
-        if(domainDiv.getAttribute("domain") !== domain)
+        if(domainDiv.getAttribute("domain").toLowerCase() !== domain.toLowerCase())
             domainDiv.hidden = true;
     }
 }
 
 function sortAlphabetically(companies) {
     let companiesArray = Array.from(companies);
-    console.log("companies Array : " + companiesArray.length);
     companiesArray.sort(function (a, b) {
         let aName = a.getElementsByClassName('companyHeader')[0].innerText;
         let bName = b.getElementsByClassName('companyHeader')[0].innerText;
@@ -117,7 +150,7 @@ function sortByDomain(domains, companies) {
             }
         }
         formattedDomain.innerText = formattedDomain.innerText + " - Quantité d'entreprises : " + count;
-        elementToBePushed.setAttribute("domain", currentMunicipality);
+        elementToBePushed.setAttribute("domain", currentDomain);
         companyList.appendChild(elementToBePushed);
     }
 
@@ -217,15 +250,10 @@ function sortAndAddByMunicipality(municipalities, companies) {
         }
         companyList.appendChild(elementToBePushed);
     }
-
-    
-    console.log("Amount of companies now : " + companyList.getElementsByClassName('company').length);
 }
 
 function sort(companies) {
-    console.log("Amount of companies now : " + companies.length);
     let alphabeticallySortedCompanies = sortAlphabetically(companies);
-    console.log("Amount of companies now : " + alphabeticallySortedCompanies.length);
     let mode = getParameter('mode');
     if( mode == 1 ) {
         let domains = getDomains(companies);
@@ -247,11 +275,9 @@ function sort(companies) {
 function sortCompanies() {
     let companies = document.querySelectorAll('.company');
     let companyList = document.getElementsByClassName('companyList')[0];
-    console.log("Amount of companies now : " + companies.length);
     for(let i = 0; i < companies.length; i++) {
         companyList.removeChild(companies[i]);
     }
-    console.log("Amount of companies now : " + companies.length);
     sort(companies);
 }
 
