@@ -2,6 +2,8 @@
 
 Liens : 
 
+## [Formulaire pour organiser à votre façon](https://demomaker.github.io/EntreprisesLotbiniere/?form=1)
+
 ## Organisation par municipalité
 [Pour organiser par municipalité](https://demomaker.github.io/EntreprisesLotbiniere/)
 
