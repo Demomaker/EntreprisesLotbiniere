@@ -3,14 +3,18 @@
 getParameter = (key) => {
   
     // Address of the current window
-    address = window.location.search
+    const address = window.location.search;
   
     // Returns a URLSearchParams object instance
-    parameterList = new URLSearchParams(address)
+    const parameterList = new URLSearchParams(address)
   
     // Returning the respected value associated
     // with the provided key
     return parameterList.get(key)
+}
+
+function getURLWithoutParams() {
+    return window.location.href.split('?')[0];
 }
 
 function getVariants()  {
@@ -281,4 +285,86 @@ function sortCompanies() {
     sort(companies);
 }
 
-sortCompanies();
+function manageVisuals() {
+    let form = getParameter('form')
+    if(form == 1) showForm();
+    else sortCompanies(); 
+}
+
+function showForm() {
+    let companyListContainer = document.getElementsByClassName("companyListContainer")[0];
+    companyListContainer.remove();
+    let filterModeDiv = document.createElement('div');
+    let filterModeLabel = document.createElement('label');
+    filterModeLabel.innerText = "Mode de filtrage : domaine (coché) ou municipalité (décoché)"
+    let filterMode = document.createElement('input');
+    filterMode.type = "checkbox";
+    filterModeDiv.append(filterModeLabel);
+    filterModeDiv.append(filterMode);
+    let domainDiv = document.createElement('div');
+    let domainLabel = document.createElement('label');
+    domainLabel.innerText = "Domaine : ";
+    let domainInput = document.createElement('input');
+    domainInput.id = "domainInput";
+    domainDiv.append(domainLabel);
+    domainDiv.append(domainInput);
+    domainInput.disabled = true;
+    let municipalityDiv = document.createElement('div');
+    let municipalityLabel = document.createElement('label');
+    municipalityLabel.innerText = "Municipalité : ";
+    let municipalityInput = document.createElement('input');
+    municipalityInput.id = "municipalityInput";
+    municipalityDiv.append(municipalityLabel);
+    municipalityDiv.append(municipalityInput);
+    filterMode.addEventListener("change", () => {
+        if(filterMode.checked) {
+            municipalityInput.disabled = true;
+            domainInput.disabled = false;
+        }
+        else {
+            municipalityInput.disabled = false;
+            domainInput.disabled = true;
+        }
+    })
+    let buttonDiv = document.createElement('div');
+    let button = document.createElement('button');
+    button.id = "buttonInput";
+    button.innerText = "Filtrer";
+    button.addEventListener("click", () => {
+        let baseURL = getURLWithoutParams();
+        let paramURL = getParamURLFromInputs(municipalityInput.value, domainInput.value, filterMode.checked ? 1 : 0);
+        let completeURL = baseURL + paramURL;
+        window.location.href = completeURL;
+    })
+    buttonDiv.append(button);
+    let formDiv = document.createElement("div");
+    formDiv.id = "filterForm";
+    formDiv.append(filterModeDiv)
+    formDiv.append(domainDiv);
+    formDiv.append(municipalityDiv);
+    formDiv.append(buttonDiv);
+    document.body.append(formDiv);
+    document.body.id="formBody";
+}
+
+function getParamURLFromInputs(municipality, domain, mode) {
+    let baseURL = "?mode="
+    let url = baseURL;
+    if(mode == 0) {
+        url += "0";
+        if(municipality) {
+            url += "&municipality=" + municipality;
+        }
+    }
+
+    if(mode == 1) {
+        url += "1";
+        if(domain) {
+            url += "&domain=" + domain;
+        }
+    }
+
+    return url;
+}
+
+manageVisuals();
