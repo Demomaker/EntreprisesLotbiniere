@@ -22,6 +22,7 @@ function getVariants()  {
     'Dosquet' : ['Dosquet'],
     'Laurier-Station' : ['Laurier', 'Laurier-Station'],
     'Leclercville': ['Leclercville'],
+    'Lotbinière': ['Lotbinière', 'Lot', 'Lotbiniere', 'Lot de bines', 'Lotbin', 'Lotbini'],
     'N.-D.-S.-C. d\'Issoudun' : ['N.-D.-S.-C. d\'Issoudun', 'Issoudun'],
     'Saint-Agapit' : ['Saint-Agapit', 'St-Agapit'],
     'Saint-Antoine-de-Tilly' : ['Saint-Antoine-de-Tilly', 'Saint-Antoine', 'St-Antoine-de-Tilly', 'St-Antoine'],
