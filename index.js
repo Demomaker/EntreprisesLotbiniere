@@ -225,6 +225,10 @@ function sortAndAddByMunicipality(municipalities, companies) {
     for(let i = 0; i < companiesArray.length; i++) {
         let company = companiesArray[i];
         let parentNode = company.parentNode;
+        if (!parentNode) {
+            hasCompaniesWithNoMunicipality = true;
+            break;
+        }
         let parentClassList = parentNode.className;
         if(parentClassList.indexOf('municipalityDiv') <= -1) {
             hasCompaniesWithNoMunicipality = true;
@@ -243,7 +247,7 @@ function sortAndAddByMunicipality(municipalities, companies) {
         for(let i = 0; i < companiesArray.length; i++) {
             let company = companiesArray[i];
             let parentNode = company.parentNode;
-            if(parentNode === null || parentNode === undefined) {
+            if(!parentNode) {
                 elementToBePushed.appendChild(company);
                 continue;
             }

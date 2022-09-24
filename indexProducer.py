@@ -40,98 +40,82 @@ def removeBackgroundColorTag(data) :
     return resultingData
 
 def replaceClasses(data):
-    startIndex = data.find('av_textblock_section')
-    endIndex = startIndex + len('av_textblock_section')
-    resultingData = data[0:startIndex] + 'companyListContainer' + data[endIndex:]
-    startIndex = resultingData.find('avia_textblock')
-    endIndex = startIndex + len('avia_textblock')
-    resultingData = resultingData[0:startIndex] + 'companyList' + resultingData[endIndex:]
-    while 'avia-data-table-wrap' in resultingData :
-        startIndex = resultingData.find('avia-data-table-wrap')
-        endIndex = startIndex + len('avia-data-table-wrap')
-        resultingData = resultingData[0:startIndex] + '' + resultingData[endIndex:]
-        
-    while 'avia_responsive_table' in resultingData :
-        startIndex = resultingData.find('avia_responsive_table')
-        endIndex = startIndex + len('avia_responsive_table')
-        resultingData = resultingData[0:startIndex] + 'company' + resultingData[endIndex:]
-        
-        
-    while 'avia-table avia-data-table avia-table-1 avia-builder-el-3 avia-builder-el-no-sibling' in resultingData :
-        startIndex = resultingData.find('avia-table avia-data-table avia-table-1 avia-builder-el-3 avia-builder-el-no-sibling')
-        endIndex = startIndex + len('avia-table avia-data-table avia-table-1 avia-builder-el-3 avia-builder-el-no-sibling')
-        resultingData = resultingData[0:startIndex] + 'companyTable' + resultingData[endIndex:]
+    #Replace original classes with our own classes
+    classesToSearchFor = ['av_textblock_section', 'avia_textblock', 'avia-data-table-wrap', 'avia_responsive_table', 'avia-table avia-data-table avia-table-1 avia-builder-el-3 avia-builder-el-no-sibling', 'avia-heading-row', 'avia-highlight-col', 'textefoncetableau']
+    classesToReplaceWith = ['companyListContainer', 'companyList', '', 'company', 'companyTable', 'companyHeading', 'companyHeader', 'personneContactPrincipal']
+    resultingData = replaceMultipleClasses(data, classesToSearchFor, classesToReplaceWith)
 
-    while 'avia-heading-row' in resultingData :
-        startIndex = resultingData.find('avia-heading-row')
-        endIndex = startIndex + len('avia-heading-row')
-        resultingData = resultingData[0:startIndex] + 'companyHeading' + resultingData[endIndex:]
+    #Replace Company Data decoration
+    resultingData = complexReplace(resultingData, ['SERVICES', 'span>', ' ', '<br/>'], ['<span class="service">', '</span>'], 0, 2, 3, 0, 1)
+    resultingData = complexReplace(resultingData, ['DOMAINE D’ACTIVITÉ', 'span>', ' ', '<br/>'], ['<span class="domaine">', '</span>'], 0, 2, 3, 0, 1)
+    resultingData = complexReplace(resultingData, ['NOMBRE D’EMPLOI', 'span>', ' ', '</td>'], ['<span class="employes">', '</span>'], 0, 2, 3, 0, 1)
 
-    while 'avia-highlight-col' in resultingData :
-        startIndex = resultingData.find('avia-highlight-col')
-        endIndex = startIndex + len('avia-highlight-col')
-        resultingData = resultingData[0:startIndex] + 'companyHeader' + resultingData[endIndex:]
+    #Replace Company Data Headers decoration
+    resultingData = complexReplace(resultingData, ['<span class="texteboldtableau"><strong>SERVICES', 'span>', '<'], ['<span class="serviceHeader">', '</span> ', '<strong>SERVICES</strong>'], 0, 0, 2, 0, 1, 2)
+    resultingData = complexReplace(resultingData, ['<span class="texteboldtableau"><strong>DOMAINE D’ACTIVITÉ', 'span>', '<'], ['<span class="domaineHeader">', '</span> ', '<strong>DOMAINE D’ACTIVITÉ</strong>'], 0, 0, 2, 0, 1, 2)
+    resultingData = complexReplace(resultingData, ['<span class="texteboldtableau"><strong>NOMBRE D’EMPLOI', 'span>', '<'], ['<span class="employesHeader">', '</span> ', '<strong>NOMBRE D’EMPLOI</strong>'], 0, 0, 2, 0, 1, 2)
 
-    while 'textefoncetableau' in resultingData :
-        startIndex = resultingData.find('textefoncetableau')
-        endIndex = startIndex + len('textefoncetableau')
-        resultingData = resultingData[0:startIndex] + 'personneContactPrincipal' + resultingData[endIndex:]
+    #Add class attributes for contactData and companyInfo
+    resultingData = addClassAttributeAtEveryElementForCertainInterval(resultingData, 'contactData', 'td', 1, 1)
+    resultingData = addClassAttributeAtEveryElementForCertainInterval(resultingData, 'companyInfo', 'td', 2, 0)
+    return resultingData
 
-    
+def addClassAttributeAtEveryElementForCertainInterval(data, classAttributeToAdd, elementToAddTo, findsBeforeStart, findsBeforeEnd):
+    resultingData = data
+    currentIndex = 0
+    completeElementToAddTo = '<' + elementToAddTo
+    completeElementToAddToWithSpace = completeElementToAddTo + ' '
+    while resultingData.find(completeElementToAddTo, currentIndex) > -1 :
+        for i in range(findsBeforeStart):
+            currentIndex = resultingData.find(completeElementToAddTo, currentIndex) + len(completeElementToAddToWithSpace)
+        resultingData = resultingData[0:currentIndex] + 'class="' + classAttributeToAdd + '" ' + resultingData[currentIndex:]
+        for i in range(findsBeforeEnd):
+            currentIndex = resultingData.find(completeElementToAddTo, currentIndex) + len(completeElementToAddToWithSpace)
+    return resultingData
+
+def findElementsIndexesInOrder(data, arrayOfElementsToFind, startIndex):
+    arrayOfElementsIndexes = []
+    searchNextIndex = startIndex
+    for x in arrayOfElementsToFind:
+        found = data.find(x, searchNextIndex)
+        if found > -1:
+            searchNextIndex = found
+        arrayOfElementsIndexes.append(found)
+    return arrayOfElementsIndexes
+
+def replaceClass(data, classToSearchFor, classToReplaceWith):
+    resultingData = data
+    while classToSearchFor in resultingData :
+        startIndex = resultingData.find(classToSearchFor)
+        endIndex = startIndex + len(classToSearchFor)
+        resultingData = resultingData[0:startIndex] + classToReplaceWith + resultingData[endIndex:]
+    return resultingData
+
+def replaceMultipleClasses(data, classToSearchForList, classToReplaceWithList):
+    resultingData = data
+    for idOfClassToSearchFor, classToSearchFor in enumerate(classToSearchForList):
+        classToReplaceWith = classToReplaceWithList[idOfClassToSearchFor]
+        resultingData = replaceClass(resultingData, classToSearchFor, classToReplaceWith)
+    return resultingData
+
+def complexReplace(data, arrayToSearchFor, arrayToReplaceWith, criticalElementIndex, searchReplaceStartIndex, searchReplaceEndIndex, replaceWithBeforeIndex, replaceWithAfterIndex, replaceStartToEndWithIndex = -1):
     startIndex = 0
     endIndex = 0
-    while resultingData.find('<span class="texteboldtableau">SERVICES : </span>', endIndex) != -1:
-        startIndex = resultingData.find('<span class="texteboldtableau">SERVICES : </span>', endIndex) + len('<span class="texteboldtableau">SERVICES : </span>')
-        endIndex = resultingData.find('<br/>', startIndex)
-        resultingData = resultingData[0:startIndex] + '<span class="service">' + resultingData[startIndex:endIndex] + '</span>' + resultingData[endIndex:]
-    
-    
-    startIndex = 0
-    endIndex = 0
-    while resultingData.find('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>', endIndex) != -1:
-        startIndex = resultingData.find('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>', endIndex) + len('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>')
-        endIndex = resultingData.find('<br/>', startIndex)
-        resultingData = resultingData[0:startIndex] + '<span class="domaine">' + resultingData[startIndex:endIndex] + '</span>' + resultingData[endIndex:]
-    
-    startIndex = 0
-    endIndex = 0
-    while resultingData.find('<span class="texteboldtableau">NOMBRE D’EMPLOI :</span>', endIndex) != -1:
-        startIndex = resultingData.find('<span class="texteboldtableau">NOMBRE D’EMPLOI :</span>', endIndex) + len('<span class="texteboldtableau">NOMBRE D’EMPLOI :</span>')
-        endIndex = resultingData.find('</tr>', startIndex)
-        resultingData = resultingData[0:startIndex] + '<span class="employes">' + resultingData[startIndex:endIndex] + '</span>' + resultingData[endIndex:]
-    
-    while '<span class="texteboldtableau">SERVICES : </span>' in resultingData :
-        startIndex = resultingData.find('<span class="texteboldtableau">SERVICES : </span>')
-        endIndex = startIndex + len('<span class="texteboldtableau">SERVICES : </span>')
-        resultingData = resultingData[0:startIndex] + '<span class="serviceHeader">SERVICES : </span>' + resultingData[endIndex:]
-
-    while '<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>' in resultingData :
-        startIndex = resultingData.find('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>')
-        endIndex = startIndex + len('<span class="texteboldtableau">DOMAINE D’ACTIVITÉ :</span>')
-        resultingData = resultingData[0:startIndex] + '<span class="domaineHeader">DOMAINE D’ACTIVITÉ :</span>' + resultingData[endIndex:]
-
-    while '<span class="texteboldtableau">NOMBRE D’EMPLOI :</span>' in resultingData :
-        startIndex = resultingData.find('<span class="texteboldtableau">NOMBRE D’EMPLOI :</span>')
-        endIndex = startIndex + len('<span class="texteboldtableau">NOMBRE D’EMPLOI :</span>')
-        resultingData = resultingData[0:startIndex] + '<span class="employesHeader">NOMBRE D’EMPLOI :</span>' + resultingData[endIndex:]
-
-    currentIndex = 0
-    while resultingData.find('<td', currentIndex) > -1 :
-        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
-        resultingData = resultingData[0:currentIndex] + 'class="contactData" ' + resultingData[currentIndex:]
-        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
-
-    currentIndex = 0
-    while resultingData.find('<td', currentIndex) > -1 :
-        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
-        currentIndex = resultingData.find('<td', currentIndex) + len('<td ')
-        resultingData = resultingData[0:currentIndex] + 'class="companyInfo" ' + resultingData[currentIndex:]
-
-    currentIndex = 0
-    while resultingData.find('</tr', currentIndex) > -1 :
-        currentIndex = resultingData.find('</tr', currentIndex)
-        resultingData = resultingData[0:currentIndex] + '</td>' + resultingData[currentIndex:]
-        currentIndex = currentIndex + len('</td></tr')
+    resultingData = data
+    while True:
+        nextFind = findElementsIndexesInOrder(resultingData, arrayToSearchFor, endIndex)
+        mustContinue = nextFind[criticalElementIndex] > -1
+        if not mustContinue:
+            break
+        startIndex = nextFind[searchReplaceStartIndex]
+        endIndex = nextFind[searchReplaceEndIndex]
+        replacement = ''
+        if replaceStartToEndWithIndex > -1:
+            replacement = arrayToReplaceWith[replaceStartToEndWithIndex]
+        else :
+            replacement = resultingData[startIndex:endIndex]
+        replacement = replacement.strip()
+        resultingData = resultingData[0:startIndex] + arrayToReplaceWith[replaceWithBeforeIndex] + replacement + arrayToReplaceWith[replaceWithAfterIndex] + resultingData[endIndex:]
     return resultingData
 
 def redoStyling(data) :
