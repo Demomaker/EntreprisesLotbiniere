@@ -41,8 +41,8 @@ def removeBackgroundColorTag(data) :
 
 def replaceClasses(data):
     #Replace original classes with our own classes
-    classesToSearchFor = ['av_textblock_section', 'avia_textblock', 'avia-data-table-wrap', 'avia_responsive_table', 'avia-table avia-data-table avia-table-1 avia-builder-el-3 avia-builder-el-no-sibling', 'avia-heading-row', 'avia-highlight-col', 'textefoncetableau']
-    classesToReplaceWith = ['companyListContainer', 'companyList', '', 'company', 'companyTable', 'companyHeading', 'companyHeader', 'personneContactPrincipal']
+    classesToSearchFor = ['av_textblock_section', 'avia_textblock', 'avia-data-table-wrap', 'avia_responsive_table', 'avia-table avia-data-table avia-table-1 avia-builder-el-3 avia-builder-el-no-sibling', 'avia-heading-row', 'avia-highlight-col', 'textefoncetableau', 'http://http']
+    classesToReplaceWith = ['companyListContainer', 'companyList', '', 'company', 'companyTable', 'companyHeading', 'companyHeader', 'personneContactPrincipal', 'http']
     resultingData = replaceMultipleClasses(data, classesToSearchFor, classesToReplaceWith)
 
     #Replace Company Data decoration
