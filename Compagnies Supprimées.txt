@@ -1,1 +1,56 @@
-Nombre de compagnies supprimées: 0
+Nombre de compagnies supprimées: 5
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Chalet des Quatre-Temps (CITQ # 209753)
+Adresse : 61, route Nelson, Dosquet, G0S 1H0
+Téléphone principal : (418) 728-2424
+Fax : 
+Courriel : moniquesavoie@videotron.ca
+Site web : http://www.chaletdesquatretemps.qc.ca
+Service(s) : Résidence touristique (chalet).
+Domaine : Tourisme/Récré-touristique
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Jeux d'aventure Paintball enr.
+Adresse : 4496, chemin des Plaines , Saint-Antoine-de-Tilly, G0S 2C0
+Téléphone principal : (418) 561-0617
+Fax : 
+Courriel : davidoff.b@hotmail.com
+Site web : http://www.jeuxdaventure.ca
+Service(s) : Paint-ball et service de méchoui extérieur.
+Domaine : Tourisme/Récré-touristique
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Paintball Ste-Croix
+Adresse : Parc industriel , Sainte-Croix, G0S 2H0
+Téléphone principal : (418) 881-3000
+Fax : 
+Courriel : bergeronj105@hotmail.com
+Site web : 
+Service(s) : Jeu de paintball intérieur et possiblement extérieur. Activité plein air.
+Domaine : Indéterminé
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Atelier des 4 vents
+Adresse : 7678, route Marie-Victorin , Lotbinière, G0S 1S0
+Téléphone principal : (418) 796-3414
+Fax : (418) 796-3414
+Courriel : robert.lortie@hotmail.ca
+Site web : 
+Service(s) : Fabrication, réparation, restauration de persiennes, portes et fenêtres en bois.
+Domaine : Manufacturière
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Casse-Croûte chez Lelou
+Adresse : 314, rue St-Thérèse, Saint-Janvier-de-Joly,
+Téléphone principal : (418) 728-3263 ext
+Fax : 
+Courriel : christianalavoie@hotmail.com
+Site web : 
+Service(s) : Casse-Croûte
+Domaine : 
+Nombre d'employés : 4
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
