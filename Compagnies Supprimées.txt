@@ -1,56 +1,23 @@
-Nombre de compagnies supprimées: 5
+Nombre de compagnies supprimées: 2
 -------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Cétal inc.
-Adresse : 132, rue Olivier, Laurier-Station, G0S 1N0
-Téléphone principal : (418) 728-3119 ext 201
-Fax : (418) 728-3193
-Courriel : administration@cetal.ca
-Site web : http://www.cetal.ca
-Service(s) : Palettes de manutention et caisses en bois: découpage: matériaux en vrac: assemblage de câbles et harnais électriques sur mesure: sous-traitance industrielle.
-Domaine : Manufacturière
-Nombre d'employés : 171
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Festival Rétro de Joly
-Adresse : 384, route Centrale , Saint-Janvier-de-Joly, G0S 1M0
-Téléphone principal : (418) 728-2525 ext
-Fax : (418) 415-0905
-Courriel : cdecj@festivalretrodejoly.com
-Site web : http://www.festivalretrodejoly.com
-Service(s) : Festival rétro de Joly:  musique des années 1960 à 80.
-Domaine : Tourisme/Récré-touristique
+Nom : Caroline Renaud Services comptable
+Adresse : 1059, avenue Vachon , Saint-Agapit, G0S 1Z0
+Téléphone principal : (418) 999-0404 ext
+Fax : (418) 888-1454
+Courriel : caroline@carolinerenaud.com
+Site web : http://www.carolinerenaud.com
+Service(s) : MAJ 23-03-2022 : Cie fermée   Service de comptabilité et tenue de livres.
+Domaine : Services/Conseils
 Nombre d'employés : 1
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Servi-Express Laurier-Station
-Adresse : 371, rue St-Joseph , Laurier-Station, G0S 1N0
-Téléphone principal : (418) 728-4161
+Nom : Mélanie Thibault, tenue de livres
+Adresse : 48, rue Demers , Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 932-2293 ext
 Fax : 
-Courriel : gestionnelia@hotmail.com
+Courriel : thibault_melanie@hotmail.com
 Site web : 
-Service(s) : Dépanneur.
-Domaine : Commerce de détail
-Nombre d'employés : 5
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Dépanneur St-Flavien
-Adresse : 75, rue Principale , Saint-Flavien, G0S 2M0
-Téléphone principal : (418) 728-2926
-Fax : 
-Courriel : 
-Site web : 
-Service(s) : Dépanneur.
-Domaine : Alimentation/Restauration
-Nombre d'employés : 3
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Fin d'la faim (La)
-Adresse : 4482, chemin Gosford Est, Sainte-Agathe-de-Lotbinière, G0S 2A0
-Téléphone principal : (418) 599-2221 ext
-Fax : 
-Courriel : lafindlafaim@outlook.com
-Site web : http://  lafindlafaim@outlook.com
-Service(s) : Restaurant dont la spécialité est les viandes fumées.
-Domaine : Alimentation/Restauration
-Nombre d'employés : 6
+Service(s) : Tenue de livres informatisée, paies, retenues à la source, rapports TPS&TVQ, traitement de textes. MAJ 23-03-2022 : elle ne prend plus de nouveaux clients
+Domaine : Services/Conseils
+Nombre d'employés : 1
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
