@@ -1,1 +1,12 @@
-Nombre de compagnies supprimées: 0
+Nombre de compagnies supprimées: 1
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Atelier du Chat Bleu
+Adresse : 716, rue Lambert , Leclercville, G0S 2K0
+Téléphone principal : (819) 801-0259 ext
+Fax : 
+Courriel : guillemettenicole67@gmail.com
+Site web : http://http://atelierchatbleu.blogspot.ca/?view=classic
+Service(s) : Atelier d'art.
+Domaine : Tertiaire traditionnel
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

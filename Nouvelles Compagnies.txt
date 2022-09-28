@@ -1,1 +1,34 @@
-Nombre de nouvelles compagnies : 0
+Nombre de nouvelles compagnies : 3
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Kiosque Marjolaine R. Roy
+Adresse : 91, rue Principale , Saint-Flavien, G0S 2M0
+Téléphone principal : (418) 369-9066 ext
+Fax : 
+Courriel : marjoroy1983@gmail.com
+Site web : 
+Service(s) : Production et vente de fruits et légumes.
+Domaine : Agriculture
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Atelier Mobile K.B. inc. (L')
+Adresse : 282, rue Thibodeau, Sainte-Croix, G0S 2H0
+Téléphone principal : (418) 955-2071 ext
+Fax : 
+Courriel : contact@atelierautomobile.ca
+Site web : http://https://atelierautomobile.ca/
+Service(s) : À l’Atelier Mobile K.B.  nous savons à quel point il est difficile de trouver une disponibilité au garage pour l’entretenir et la réparation de votre voiture. Nous somme différents nous nous engageons à vous le prouver!   - Nos services (filtres automobiles, batteries, pneus, freins, voyant moteur et autres) sont offert pour toutes les marques et modèles de voitures. - Nous avons plusieurs disponibilités de jour, de soir et même les fins de semaine. - Que ce soit à votre domicile ou sur votre lieu de travail, nous somme en mesure d’effectuer le travail.
+Domaine : Services/Conseils
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : TechJig Inc
+Adresse : 43, rue Terry-Fox, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (581) 991-7723 ext
+Fax : 
+Courriel : 
+Site web : 
+Service(s) : Fabrication de robots collaboratifs.
+Domaine : 
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
