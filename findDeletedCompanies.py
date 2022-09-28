@@ -39,8 +39,8 @@ def getAddress(data, startingIndex):
     return data[firstIndex:secondIndex].strip()
 
 def getPhone(data, startingIndex):
-    indexes = findElementsIndexesInOrder(data, ['contactData', '+', '\n', '+', '\n', '+', '(', '|'], startingIndex)
-    indexes2 = findElementsIndexesInOrder(data, ['contactData', '+', '\n', '+', '\n', '+', '(', '<br/>'], startingIndex)
+    indexes = findElementsIndexesInOrder(data, ['contactData', '-', '\n', '-', '\n', '-', '(', '|'], startingIndex)
+    indexes2 = findElementsIndexesInOrder(data, ['contactData', '-', '\n', '-', '\n', '-', '(', '<br/>'], startingIndex)
     firstIndex = indexes[6]
     secondIndex = indexes[7]
     if indexes[7] > indexes2[7]:
