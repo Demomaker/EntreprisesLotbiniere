@@ -1,23 +1,199 @@
-Nombre de compagnies supprimées: 2
+Nombre de compagnies supprimées: 18
 -------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Caroline Renaud Services comptable
-Adresse : 1059, avenue Vachon , Saint-Agapit, G0S 1Z0
-Téléphone principal : (418) 999-0404 ext
-Fax : (418) 888-1454
-Courriel : caroline@carolinerenaud.com
-Site web : http://www.carolinerenaud.com
-Service(s) : MAJ 23-03-2022 : Cie fermée   Service de comptabilité et tenue de livres.
+Nom : Blouin & frères Automobiles inc.
+Adresse : 290, rue Laurier , Sainte-Croix, G0S 2H0
+Téléphone principal : (418) 926-3215
+Fax : (418) 926-2325
+Courriel : info@bfauto.net
+Site web : http://www.bfauto.net
+Service(s) : Vente de véhicules d'occasion, réparation et vente d'accessoires de  performance.
+Domaine : Commerce de détail
+Nombre d'employés : 6
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Matélevage
+Adresse : 594, route 116 Ouest , Dosquet, G0S 1H0
+Téléphone principal : (418) 728-5258
+Fax : (418) 728-5222
+Courriel : info@matelevage.com
+Site web : http://www.matelevage.com
+Service(s) : Grossiste en matériel d'élevage, abreuvoir, mangeoire, poulailler, filet et clôture électrique EN TEMPS DE COVID-19: Ouvert du lundi au vendredi de 8 h à 12 h et de 13 h à 16 h 30 Commande en ligne et téléphone, livraison, service à l'auto
+Domaine : Agriculture
+Nombre d'employés : 4
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Clinique de massothérapie Carmen Nappert
+Adresse : , Exclu,
+Téléphone principal : (418) 889-1978
+Fax : 
+Courriel : cnappert@videotron.ca
+Site web : 
+Service(s) : Soins thérapeutiques. Massage sur chaise en entreprise et massage en milieu scolaire.
 Domaine : Services/Conseils
 Nombre d'employés : 1
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- ENTREPRISE SUPPRIMÉE: ------------
-Nom : Mélanie Thibault, tenue de livres
-Adresse : 48, rue Demers , Saint-Apollinaire, G0S 2E0
-Téléphone principal : (418) 932-2293 ext
+Nom : Casse-Croûte Chez Punch Express
+Adresse : 1803, rue Principale , Saint-Gilles, G0S 2P0
+Téléphone principal : (418) 888-5684
 Fax : 
-Courriel : thibault_melanie@hotmail.com
+Courriel : punchnanny@live.ca
 Site web : 
-Service(s) : Tenue de livres informatisée, paies, retenues à la source, rapports TPS&TVQ, traitement de textes. MAJ 23-03-2022 : elle ne prend plus de nouveaux clients
+Service(s) : Restauration rapide : frites maison, plusieurs  variétés de poutines, hamburger, pizza, burger de Gibiers et + encore.
+Domaine : Tourisme/Récré-touristique
+Nombre d'employés : 8
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Municipalité de N.-D.-S.-C. d'Issoudun
+Adresse : 314, rue Principale , N.-D.-S.-C. d'Issoudun, G0S 1L0
+Téléphone principal : (418) 728-2006
+Fax : (418) 728-2303
+Courriel : munissoudun@videotron.ca
+Site web : http://www.issoudun.qc.ca
+Service(s) : Municipalité. EN TEMPS DE COVID-19: Disposition d'une boîte aux lettres dans le portique du bureau municipal.
+Domaine : Association/Org. Gouvernemental
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Ferme Maraîchère Plaisance enr.
+Adresse : 7684, Marie-Victorin , Lotbinière, G0S 1S0
+Téléphone principal : (418) 703-0524
+Fax : (418) 703-0524
+Courriel : pplaisance@videotron.ca
+Site web : 
+Service(s) : Asperges, choux, carottes, navets, pommes de terre, oignons.
+Domaine : Agriculture
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Écuries Namasté (Les)
+Adresse : 358, Bois-Franc Est , N.-D.-S.-C. d'Issoudun, G0S 1L0
+Téléphone principal : (418) 728-4696 ext
+Fax : 
+Courriel : info@ecuriesnamaste.com
+Site web : http://www.ecuriesnamaste.com
+Service(s) : Atelier de croissance personnelle et formation facilité par le cheval.
+Domaine : Services/Conseils
+Nombre d'employés : 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Jardin des Gambades
+Adresse : 451, Bois-Franc Est , Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 881-4298
+Fax : (418) 881-4298
+Courriel : roberttremblay@globetrotter.net
+Site web : 
+Service(s) : Visites guidées de jardins.
+Domaine : Tourisme/Récré-touristique
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Coiffure Lorraine Marois
+Adresse : 20, rue Demers , Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 881-2754
+Fax : 
+Courriel : lorrainemarois19@gmail.com
+Site web : 
+Service(s) : Coiffure mixte.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Maryse Labonté, service de comptabilité
+Adresse : 1091, rang Sainte-Marie , Saint-Sylvestre, G0S 3C0
+Téléphone principal : (418) 596-2899
+Fax : (418) 596-2889
+Courriel : maryse.labonte@globetrotter.net
+Site web : 
+Service(s) : Comptabilité.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Installation Portes & Fenêtres Gilles Sévigny
+Adresse : 73, rue Roger , Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 655-2041 ext
+Fax : 
+Courriel : gillessev@hotmail.com
+Site web : 
+Service(s) : Installation de portes et fenêtres.
+Domaine : Construction
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Dotmedias
+Adresse : 128, rue Saint-Pierre , Laurier-Station, G0S 1N0
+Téléphone principal : (418) 261-8996 ext
+Fax : 
+Courriel : samuelrb@dotmedias.com
+Site web : http://www.dotmedias.com
+Service(s) : Développement web, consultation, publicité et vente en ligne.
+Domaine : Tertiaire moteur
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Rendez-vous d'autrefois (Les)
+Adresse : 3859, chemin de Tilly , Saint-Antoine-de-Tilly, G0S 2C0
+Téléphone principal : (418) 886-4286
+Fax : 
+Courriel : michpoitras@videotron.ca
+Site web : http://www.beam.to/antan
+Service(s) : 
+Domaine : Tourisme/Récré-touristique
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Entreprises Maryse Côté (Les)
+Adresse : 166, route Ste-Catherine, Saint-Sylvestre, G0S 3C0
+Téléphone principal : (418) 596-1299
+Fax : 
+Courriel : lalouve1331@hotmail.com
+Site web : 
+Service(s) : 
+Domaine : Indéterminé
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Carrossier Expert St-Narcisse inc.
+Adresse : 459, rue Moore , Saint-Narcisse-de-Beaurivage, G0S 1W0
+Téléphone principal : (581) 223-8686 ext
+Fax : (581) 223-8787
+Courriel : carrossierstnarcisse@gmail.com
+Site web : 
+Service(s) : Atelier de débosselage, carrosserie et peinture.
+Domaine : 
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Clinique d'orthothérapie Martin Turcotte
+Adresse : 83, rue des Lilas , Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 881-3881 ext
+Fax : 
+Courriel : 
+Site web : 
+Service(s) : Massothérapie, orthothérapie, biokinergie et kinésithérapie.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Caron Voyage
+Adresse : 405, route 273, local 105, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (581) 999-1155 ext
+Fax : 
+Courriel : info@caronvoyage.com
+Site web : http://www.caronvoyage.com
+Service(s) : Forfaits tout inclus, circuits et voyages accompagnés, voyages sur mesure, croisières, voyages corporatifs ou d'affaires, le tout organisé par des professionnels.  Assurances voyage.  Boutique d'accessoires voyage.
+Domaine : Services/Conseils
+Nombre d'employés : 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- ENTREPRISE SUPPRIMÉE: ------------
+Nom : Cielle Illustrations
+Adresse : 90 rue des bouleaux , Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 454-2949 ext
+Fax : 
+Courriel : cielle.illustrations@gmail.com
+Site web : 
+Service(s) : Service d'illustrations et de graphisme
 Domaine : Services/Conseils
 Nombre d'employés : 1
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

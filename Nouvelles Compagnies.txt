@@ -1,203 +1,496 @@
-Nombre de nouvelles compagnies : 18
+Nombre de nouvelles compagnies : 45
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Parc linéaire de la MRC de Lotbinière
-Adresse : 6375, rue Garneau , Saint-Agapit, G0S 2H0
-Téléphone principal : (418) 926-3407 ext
+Nom : Resto Du Bois Clair
+Adresse : 2408, rue Principale *, Saint-Édouard-de-Lotbinière, G0S 1Y0
+Téléphone principal : (418) 796-3101 ext
 Fax : 
-Courriel : daniel.lemay@mrclotbiniere.org
-Site web : http://https://lotbiniere.chaudiereappalaches.com/fr/voyage-quebec/lotbiniere/saint-agapit/parc-lineaire-de-la-mrc-de-lotbiniere/piste-cyclable/
-Service(s) : Piste cyclable transcanadienne qui passe sur le territoire de la MRC de Lotbinière de Saint-Agapit à Dosquet.
-Domaine : 
-Nombre d'employés : 0
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Finition F.G.B. Inc.
-Adresse : 229, rue de l'Affluent, Saint-Gilles, G7A 5C1
-Téléphone principal : (581) 888-1559 ext
-Fax : 
-Courriel : francoisg.bourget@hotmail.com
+Courriel : restoboisclair@yahoo.com
 Site web : 
-Service(s) : Secteur de la construction, domaine du plâtrage.
-Domaine : Construction
-Nombre d'employés : 1
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Pic-Bois l'Artisan
-Adresse : 2584, rue Principale, Saint-Édouard-de-Lotbinière, G0S 1Y0
-Téléphone principal : (819) 266-2198 ext
-Fax : 
-Courriel : picboislartisan@gmail.com
-Site web : http://http://Picboislartisanboutique.company.site/
-Service(s) : Ébénisterue artisanale. Créations uniques et pleines de personnalités. Antiquités et articles de déco actuels. Nous pouvons également rénover vos vieux meubles en bois en les personnalisant et faire certains projets sur mesure.
-Domaine : 
+Service(s) : Gestion d'un lac privé.
+Domaine : Association/Org. Gouvernemental
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : L'Érable Tourisme et Culture
-Adresse : 1280, avenue Trudelle, Extérieur, G6L3K4
-Téléphone principal : (819) 621-1333 ext
-Fax : 
-Courriel : infotouristique@erable.ca
-Site web : http://www.regiondelerable.ca
-Service(s) : 
-Domaine : 
-Nombre d'employés : 3
+Nom : Atelier de couture Manon Nappert
+Adresse : 3407, chemin Craig, Saint-Patrice-de-Beaurivage, G0S 1B0
+Téléphone principal : (418) 998-2970 ext
+Fax : (418) 728-5158
+Courriel : mannappert@globetrotter.net
+Site web : 
+Service(s) : Service de police.
+Domaine : Tertiaire traditionnel
+Nombre d'employés : 32
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Villa du St-Laurent CITQ # 295931
-Adresse : 196, chemin du Quai*, Leclercville, G0S2K0
-Téléphone principal : (418) 932-8996 ext
+Nom : Députée de Lotbinière-Frontenac
+Adresse : 57, rue Chaîné, Saint-Janvier-de-Joly, G0S 2E0
+Téléphone principal : (418) 881-3450 ext
 Fax : 
-Courriel : info@villadustlaurent.com
-Site web : http://www.villadustlaurent.com
-Service(s) : Maison de location
-Domaine : 
+Courriel : Isabelle.Lecours.LOFR@assnat.qc.ca
+Site web : http://http://www.assnat.qc.ca/fr/deputes/lecours-isabelle-17945/index.html
+Service(s) : Système de télécommunication/ Câblage/Fourniture réseau internet/Système de protection/Système de contrôle d'accès.
+Domaine : Construction/Rénovation
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Krystal Salon Spa
+Adresse : 425, route 273, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 881-8888 ext
+Fax : 
+Courriel : marie.talbot@hotmail.com
+Site web : http://krystalsalon.ca
+Service(s) : Transport général.
+Domaine : Transport
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Tout en béton
+Adresse : 144, rue Hamel, Saint-Édouard-de-Lotbinière, G0S 1Y0
+Téléphone principal : (418) 932-9412 ext
+Fax : 
+Courriel : the_chief@hotmail.ca
+Site web : http://www.toutenbeton.com
+Service(s) : Ostéopathie, massothérapie et Orthothérapie.
+Domaine : Services/Conseils
 Nombre d'employés : 2
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Électricité Éco Construction
-Adresse : 272, rue Laurier, Saint-Apollinaire, G0S 2E0
-Téléphone principal : (581) 307-1400 ext
+Nom : Boucherie Charcuterie La Parisienne (EN DÉMARRAGE)  Boucherie Charcuterie La Parisienne (EN DÉMARRAGE)
+Adresse : 806, rue Principale, Saint-Apollinaire, G0S 3H0
+Téléphone principal : (418) 728-1619 ext
 Fax : 
-Courriel : info@electriciteeco.com
-Site web : http://www.electriciteeco.com
-Service(s) : Entrepreneur électricien résidentiel, commercial, industriel et agricole
-Domaine : Construction/Rénovation
-Nombre d'employés : 4
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Villa du Phare CITQ # 224954
-Adresse : 16, chemin de la Vieille Église, Lotbinière, G0S1S0
-Téléphone principal : (418) 932-8996 ext
-Fax : 
-Courriel : info@villaduphare.com
+Courriel : gillesleplay45@gmail.com
 Site web : 
-Service(s) : Maison de location
-Domaine : 
+Service(s) : Entreprise familiale spécialisée dans la production ovine de type commercial qui met en marché une viande de qualité destinée aux consommateurs d'agneaux du Québec.
+Domaine : Agriculture
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Pépinière Boréale
+Adresse : 418, Rang 3, Extérieur, G0S 3H0
+Téléphone principal : (819) 998-4254 ext
+Fax : 
+Courriel : pepiniereboreale@outlook.com
+Site web : 
+Service(s) : Entreprise familiale spécialisée dans la production ovine de type commercial qui met en marché une viande de qualité destinée aux consommateurs d'agneaux du Québec.
+Domaine : Agriculture
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : L.S. Conceptions inc.
+Adresse : 128, rue olivier, Laurier-Station, G0S 1N0
+Téléphone principal : (418) 415-1112 ext
+Fax : 
+Courriel : dbedard89@hotmail.ca
+Site web : 
+Service(s) : Entreprise familiale spécialisée dans la production ovine de type commercial qui met en marché une viande de qualité destinée aux consommateurs d'agneaux du Québec.
+Domaine : Agriculture
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Control Skateboard
+Adresse : 857, rue Alphonse -Desrochers, Extérieur, G7A 5K6
+Téléphone principal : (418) 836-9090 ext
+Fax : 
+Courriel : logistics@controlmfg.com
+Site web : http://www.controlmfg.com
+Service(s) : Élevage à forfait de canards et transformation.
+Domaine : Agriculture
+Nombre d'employés : 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Garderie Panda Magique
+Adresse : 77, rue des Vignes, Extérieur, G0S 2E0
+Téléphone principal : (418) 433-6264 ext
+Fax : 
+Courriel : garderiepandamagique@hotmail.com
+Site web : 
+Service(s) : Construction & rénovation agricole et résidentielle.
+Domaine : Construction
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Usinage A Plus
+Adresse : 324, avenue Laurier, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 836-3099 ext
+Fax : 
+Courriel : 1leblond.raymond@gmail.com
+Site web : 
+Service(s) : Production de prunes, de poires et de pommes (21 variétés).  Autocueillette. Vente au kiosque. Réservation pour groupes, écoles et garderies.
+Domaine : Tourisme/Récré-touristique
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Jardins de Dosquet (Les)
+Adresse : 219, route Saint-Joseph, Dosquet, G0S 1H0
+Téléphone principal : (819) 998-6780 ext
+Fax : 
+Courriel : lesjardinsdedosquet@hotmail.com
+Site web : 
+Service(s) : Arboriculteur professionnel pour l'élagage, l'abattage, le haubanage, la taille de haies et plus. Estimation gratuite.
+Domaine : Services/Conseils
+Nombre d'employés : 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Simon-Pierre Rochette (en démarrage)
+Adresse : 114, rue Lacasse, Saint-Gilles, G0S 2P0
+Téléphone principal : (581) 748-1920 ext
+Fax : 
+Courriel : spr@service-conseil.ca
+Site web : 
+Service(s) : Salon de coiffure.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Entreprises Yvan Dion (Les)
+Adresse : 479, rue Principale, Saint-Narcisse-de-Beaurivage, G0S 1W0
+Téléphone principal : (418) 882-2652 ext
+Fax : 
+Courriel : rsamson@leyd.ca
+Site web : 
+Service(s) : Salon de coiffure.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Transport Mailloux inc.
+Adresse : 265, rue principale, N.-D.-S.-C. d'Issoudun, G0S1L0
+Téléphone principal : (418) 728-3956 ext
+Fax : 
+Courriel : transport.mailloux@gmail.com
+Site web : 
+Service(s) : Atelier d'usinage. Spécialités: Acier, stainless, aluminium, pliage et découpage.
+Domaine : Services/Conseils
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Projet maison
+Adresse : 265, rue Laurier, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 609-1482 ext
+Fax : 
+Courriel : eb@projet-maison.ca
+Site web : http://www.projet-maison.ca
+Service(s) : Culture de vigne,  production de raisins de table et de vin.
+Domaine : Agriculture
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Michaël Martel - Démarrage
+Adresse : 589, route Laurier, N.-D.-S.-C. d'Issoudun, G0S 1L0
+Téléphone principal : (418) 928-3659 ext
+Fax : 
+Courriel : martel.59@hotmail.com
+Site web : 
+Service(s) : Location de petits équipements tels que excavatrices, tracteurs, etc.
+Domaine : Construction/Rénovation
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Jardin des vie-la-joie (Le)
+Adresse : , Sainte-Agathe-de-Lotbinière, G0S 2A0
+Téléphone principal : (438) 888-3032 ext
+Fax : 
+Courriel : info@vielajoie.com
+Site web : http://vielajoie.com
+Service(s) : Location de petits équipements tels que excavatrices, tracteurs, etc.
+Domaine : Construction/Rénovation
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Lacasse Machinerie inc.
+Adresse : 1009, rue Industrielle, Saint-Agapit, G0S 1Z0
+Téléphone principal : (418) 446-6671 ext
+Fax : 
+Courriel : jasminlacasse@hotmail.ca
+Site web : http://www.lacassemachinerie.com
+Service(s) : Location de petits équipements tels que excavatrices, tracteurs, etc.
+Domaine : Construction/Rénovation
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Soudure Perfect Métal
+Adresse : 428-A, route 116 Ouest, Dosquet, G0S 1H0
+Téléphone principal : (581) 928-4896 ext
+Fax : 
+Courriel : beaudetmetal@outlook.com
+Site web : 
+Service(s) : Brasseur de bières et salon de dégustation
+Domaine : Alimentation/Restauration
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Nadeau Photo Solution
-Adresse : 201, avenue Jacques-Cartier, Extérieur, G0N1E0
-Téléphone principal : (418) 332-4152 ext
+Nom : Entretien ménager Souza
+Adresse : 73, rue des Rosiers, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 576-8996 ext
 Fax : 
-Courriel : patrick@nadeauphotosolution.com
-Site web : http://www.nadeauphotosolution.com
-Service(s) : Photo pour des projets virtuels 360 degrés.
-Domaine : 
+Courriel : entretiensouza@hotmail.com
+Site web : 
+Service(s) : Services d'agent manufacturier industriel & agricole.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Potager des trois oies (Le)
+Adresse : 381, rang du Bois-Franc Est, Saint-Agapit, G0S 1L0
+Téléphone principal : (581) 996-9619 ext
+Fax : 
+Courriel : lepotagerdestroisoies@gmail.com
+Site web : 
+Service(s) : Services d'agent manufacturier industriel & agricole.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Association sportive de tire de tracteurs du Québec
+Adresse : Jean XXIII, Laurier-Station, G0S 1N0
+Téléphone principal : (418) 440-2889 ext
+Fax : 
+Courriel : bergeronblackjack@videotron.ca
+Site web : http://www.asttq.net
+Service(s) : Services d'agent manufacturier industriel & agricole.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Autos St-Apo inc.
+Adresse : 1-324, rue Laurier, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (581) 999-5064 ext
+Fax : 
+Courriel : admin@autosstapo.com
+Site web : http://www.autosstapo.com
+Service(s) : Services d'agent manufacturier industriel & agricole.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : BC isolation inc.
+Adresse : 43, des Jonquilles, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 208-5172 ext
+Fax : 
+Courriel : isolationbc@gmail.com
+Site web : 
+Service(s) : Services d'agent manufacturier industriel & agricole.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : LBLGD (Démarrage)
+Adresse : 9, rue Bédard, Saint-Janvier-de-Joly, G0S 2M0
+Téléphone principal : (581) 980-5031 ext
+Fax : 
+Courriel : entrepriseslglbd@gmail.com
+Site web : 
+Service(s) : Services d'agent manufacturier industriel & agricole.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Taxi 291
+Adresse : 387, rue des Cèdres, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 881-0141 ext
+Fax : 
+Courriel : fticas89@hotmail.com
+Site web : 
+Service(s) : Ferme maraîchère sans pesticide et sans engrais chimique orientée vers l'agrotourisme.
+Domaine : Agriculture
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Mécanique Industrielle Victum
-Adresse : 678, rue Rocheleau, N.-D.-S.-C. d'Issoudun, J2C 6Y5
-Téléphone principal : (819) 469-7450 ext
+Nom : Installations M. Defoy inc. (Les)
+Adresse : 28, rue de l'Entente, Saint-Apollinaire, G0S 2E0
+Téléphone principal : (418) 951-2155 ext
 Fax : 
-Courriel : rebecca@mivictum.com
-Site web : http://www.mivictum.com
-Service(s) : Maintenance, réparation et installation d'équipements industriels. Installation complète de nouvelles lignes de productions, travaux de maintenance préventive, réparations spontanées
-Domaine : 
-Nombre d'employés : 21
+Courriel : installations.mdefoy@outlook.com
+Site web : 
+Service(s) : Service d'orthophonie
+Domaine : Services/Conseils
+Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : PE Transport
-Adresse : 3647, 3e Rang Ouest, Sainte-Croix, G0S 2H0
-Téléphone principal : (418) 926-1200 ext
+Nom : Le St-Edmond
+Adresse : 1172 rue de l'Église, Val-Alain,
+Téléphone principal : (418) 394-4413 ext
 Fax : 
-Courriel : administration@petransport.ca
-Site web : http://petransport.ca
+Courriel : lestedmond@hotmail.com
+Site web : http://https://lestedmond.com/
+Service(s) : Service de design d'intérieur
+Domaine : Services/Conseils
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Gîte Le Bellarose (CITQ #  297696)
+Adresse : 1118, rue Principale, Saint-Agapit, G0S1Z0
+Téléphone principal : (418) 888-5179 ext
+Fax : 
+Courriel : charlemagne30@hotmail.com
+Site web : 
+Service(s) : Gestion de projets de construction ou de rénovation pour les particuliers. Gestion de projets en externe pour les entreprises. Gestion de projet de développement vente et distribution.
+Domaine : Services/Conseils
+Nombre d'employés : 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Construction RCM inc.
+Adresse : 381, Route 116 Ouest, Saint-Agapit, G0S1Z0
+Téléphone principal : (418) 728-1615 ext
+Fax : 
+Courriel : constructionrcm@hotmail.com
+Site web : http://constructionrcm.com
 Service(s) : Transport général, hors norme et logistique. Transport de machineries et de matériaux en tous genres de 20 000 lbs et moins avec des remorques plateformes et fermées, desservant le territoire du Québec, de l'Ontario et des Maritimes.
 Domaine : Transport
 Nombre d'employés : 4
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Salon Marie-Claude Coiffure
-Adresse : 1146, rue Principale , Saint-Agapit, G0S 1Z0
-Téléphone principal : (418) 888-3414 ext
+Nom : Créations Pierrette Bilodeau
+Adresse : 468, rue de la Station, Val-Alain, G0S 3H0
+Téléphone principal : (418) 744-3410 ext
+Fax : 
+Courriel : dixie_4126@hotmail.com
+Site web : 
+Service(s) : Je suis LA personne que vous cherchiez pour vous permettre de réaliser vos objectifs financiers personnels ou d'affaires.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Services Inspec-Thor (Les)
+Adresse : 639, des Érables , Saint-Patrice-de-Beaurivage, G0S 1B0
+Téléphone principal : (866) 617-8467 ext
+Fax : 
+Courriel : ngrondin@inspec-thor.com
+Site web : http://www.inspec-thor.com
+Service(s) : Je suis LA personne que vous cherchiez pour vous permettre de réaliser vos objectifs financiers personnels ou d'affaires.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Strobus atelier de forge
+Adresse : 365, rang des Pointes, Saint-Antoine-de-Tilly, G0S 1Z0
+Téléphone principal : (581) 984-0232 ext
+Fax : 
+Courriel : strobusforge@gmail.com
+Site web : http://www.strobusforge.com
+Service(s) : Je suis LA personne que vous cherchiez pour vous permettre de réaliser vos objectifs financiers personnels ou d'affaires.
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : THMiniatures
+Adresse : 23 rue du Geai Bleu, Saint-Apollinaire, G0S2E0
+Téléphone principal : (514) 714-2531 ext
+Fax : 
+Courriel : info@thminiatures.com
+Site web : http://www.thminiatures.com
+Service(s) : 
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Café Lotbinière
+Adresse : B-7452, route Marie-Victorin, Lotbinière, G0S 1S0
+Téléphone principal : (418) 956-9810 ext
+Fax : 
+Courriel : cafelotbiniere@gmail.com
+Site web : 
+Service(s) : Sympathique petit resto au coeur du village de Lotbinière. Déjeuner et dîner - Menu local et santé.  Au pôle agroalimentaire de Lotbinière.
+Domaine : Alimentation/Restauration
+Nombre d'employés : 4
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Communication Futée
+Adresse : , Extérieur,
+Téléphone principal : (418) 835-6980 ext
+Fax : 
+Courriel : info@communicationfutee.ca
+Site web : http://  http://www.communicationfutee.ca/
+Service(s) : Fromagerie et restaurant avec 90 place intérieures.  Propriété de Jean-François Dion, Stéphane Asselin et Annie de Cotret. Ces derniers sont déjà copropriétaires de la succursale de Lebourgneuf. Ouverture mi-novembre 2021.
+Domaine : 
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Effleurés (Les)
+Adresse : 201, rang 3 et 4 e Est, Saint-Janvier-de-Joly, G0S1M0
+Téléphone principal : (514) 970-8978 ext
+Fax : 
+Courriel : info@leseffleures.com
+Site web : http://www.leseffleures.com
+Service(s) : 
+Domaine : Services/Conseils
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Ma maison rose
+Adresse : 3849 chemin de Tilly, Saint-Antoine-de-Tilly, G0S 2C0
+Téléphone principal : (418) 956-2354 ext
+Fax : 
+Courriel : elizbeth71@yahoo.ca
+Site web : http://http://mamaisonrose.com/
+Service(s) : 
+Domaine : Agriculture
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Beauté Mel Design
+Adresse : 58 Rue Lamontagne, Saint-Apollinaire, G0S2E0
+Téléphone principal : (418) 956-2354 ext
+Fax : 
+Courriel : melaniegendron11@hotmail.com
+Site web : 
+Service(s) : 
+Domaine : Agriculture
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Mon orthésiste
+Adresse : 133, rue Principale, Saint-Apollinaire,
+Téléphone principal : (418) 809-1683 ext
+Fax : 
+Courriel : christine.arguin@outlook.com
+Site web : 
+Service(s) : Kiosque de vente à la ferme de coupes de viande de boeuf Charolais.
+Domaine : Agriculture
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Bohemia et co
+Adresse : 4999, Chemin des Plaines, Saint-Antoine-de-Tilly, G0S 2C0
+Téléphone principal : (581) 997-2777 ext
+Fax : 
+Courriel : vickie_turgeon44@hotmail.com
+Site web : 
+Service(s) : Électricité résidentielle, commerciale et industrielle Service d'urgence 24h/7jours
+Domaine : 
+Nombre d'employés : 3
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : Beau-soir Laurier-Station - Dépanneur Nélia inc.
+Adresse : 371, boulevard Saint-Joseph, Laurier-Station, G0S 1N0
+Téléphone principal : (418) 728-4161 ext
 Fax : 
 Courriel : 
-Site web : 
-Service(s) : salon de coiffure
-Domaine : Services/Conseils
-Nombre d'employés : 0
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Côté Solutions - STA (Démarrage)
-Adresse : 408 rue de l'Anse, Saint-Gilles, G0S 2P0
-Téléphone principal : (Les)</th>
-+											</td></tr>
-+											<tr>
-+												<td class="contactData" width="50%">
-+													<span class="personneContactPrincipal">Karianne Chandonnet</span>
-Fax : 
-Courriel : cote.solutions1@gmail.com
-Site web : 
-Service(s) : Inspection, entretien, nettoyage de drains, nettoyage haute pression et services connexes
-Domaine : Construction/Rénovation
-Nombre d'employés : 0
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Petits museaux  (Les)
-Adresse : 1033, avenue Bergeron, Saint-Agapit, G0S 1Z0
-Téléphone principal : (418) 455-0770 ext
-Fax : 
-Courriel : karianne92@hotmail.fr
-Site web : 
-Service(s) : Service de garde animalier à domicile
-Domaine : Services/Conseils
-Nombre d'employés : 1
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Boulangerie Du Chêne
-Adresse : 8030, Marie-Victorin, Leclercville, G0S 2K0
-Téléphone principal : (819) 599-0949 ext
-Fax : 
-Courriel : boulangerieduchene@gmail.com
-Site web : http://boulangerieduchene .com
-Service(s) : Fabrication et vente de produits de boulangerie et de cafés. Située dans l’ancien magasin général du village, la Boulangerie du Chêne est spécialisée dans la confection de pains artisanaux au levain, de cafés et de desserts de saison. Sur place, vous pouvez aussi découvrir une gamme de produits locaux ainsi qu’une foule de surprises gourmandes!
-Domaine : Alimentation/Restauration
-Nombre d'employés : 5
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Équipements Daigle inc. (Les)
-Adresse : 210 A rue Olivier, N.-D.-S.-C. d'Issoudun, G0S 1L0
-Téléphone principal : (418) 928-8061 ext
-Fax : 
-Courriel : equipementsdaigle@gmail.com
-Site web : http://www.equipementsdaigle.com
-Service(s) : Vente et achat de machineries agricoles et industrielles.
-Domaine : Indéterminé
-Nombre d'employés : 0
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Gravité Actions Sports - Piste de motocross, BMX, ski de fond
-Adresse : 435, rue des Trembles, N.-D.-S.-C. d'Issoudun, G0S1L0
-Téléphone principal : (418) 952-8806 ext
-Fax : 
-Courriel : campoxygene@gmail.com
-Site web : http://gravité action sport
-Service(s) : Motocross, BMX et ski de fond en hiver, camp de jour.
-Domaine : 
-Nombre d'employés : 1
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Headway telecom Inc
-Adresse : 82, rue des Turquoises, Saint-Apollinaire, G0S2E0
-Téléphone principal : (418) 473-6690 ext
-Fax : (450) 357-9202
-Courriel : info@headwaytelecom.ca
-Site web : http://headwaytelecom.ca
+Site web : http://https://beau-soir.com/promotions/
 Service(s) : 
 Domaine : 
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Ferme Mabancy inc.
-Adresse : 5405, route Marie-Victorin, Extérieur,
-Téléphone principal : (514) 604-3096 ext
+Nom : Chic Picnic Lotbinière
+Adresse : 267, rue Principale, Saint-Antoine-de-Tilly, G0S 1L0
+Téléphone principal : (418) 905-1709 ext
 Fax : 
-Courriel : alixnancy1@hotmail.com
-Site web : 
-Service(s) : Production maraîchère.
+Courriel : chicpicnic.lotbiniere@gmail.com
+Site web : http://http://www.chic-picnic.com
+Service(s) : LA BARBE À PAPA FAIT TOUTE LA DIFFÉRENCE. Depuis son ouverture en 2021, La Barbe À Papa est votre Barbier de référence. Notre rôle est de vous rendre magnifique, chaque jour de la semaine. Nous proposons des marques haut de gamme et des soins et traitements personnalisés. Prenez rendez-vous !
+Domaine : Services/Conseils
+Nombre d'employés : 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : A&W Laurier-Station
+Adresse : 134, boulevard Laurier, Laurier-Station, G0S 1N0
+Téléphone principal : (418) 415-0525 ext
+Fax : 
+Courriel : aw5860@groupes3.com
+Site web : http://aw.ca
+Service(s) : Ferme.
 Domaine : Agriculture
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
