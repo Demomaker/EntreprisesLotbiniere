@@ -88,7 +88,6 @@ def getNbEmployees(data, startingIndex):
 
 def getNextCompany(data, currentIndex):
     foundElementIndexes = findElementsIndexesInOrder(data, ['+', 'company"'], currentIndex)
-    print(foundElementIndexes)
     if foundElementIndexes[0] == -1 or foundElementIndexes[1] == -1 or foundElementIndexes[0] > foundElementIndexes[1]:
         return [-2, -2, -2]
     containsReturnCharacterBetween = containsStringBetween(data, foundElementIndexes[0], foundElementIndexes[1], '\n')
