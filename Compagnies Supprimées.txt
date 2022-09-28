@@ -6,9 +6,9 @@ Nom : Blouin & frères Automobiles inc.
 
 Adresse : 290, rue Laurier , Sainte-Croix, G0S 2H0
 
-Téléphone principal : (418) 926-3215
+Téléphone principal : (418) 475-6645
 
-Fax : (418) 475-6645 | <strong>F.</strong> (418) 475-4501
+Fax : (418) 926-2325
 
 Courriel : info@bfauto.net
 
@@ -28,9 +28,9 @@ Nom : Matélevage
 
 Adresse : 594, route 116 Ouest , Dosquet, G0S 1H0
 
-Téléphone principal : (418) 728-5258
+Téléphone principal : (418) 881-4110 ext
 
-Fax : (418) 881-4110 ext  | <strong>F.</strong>
+Fax : (418) 728-5222
 
 Courriel : info@matelevage.com
 
@@ -50,9 +50,9 @@ Nom : Clinique de massothérapie Carmen Nappert
 
 Adresse : , Exclu,
 
-Téléphone principal : (418) 889-1978
+Téléphone principal : (418) 888-5209
 
-Fax : (418) 888-5209 | <strong>F.</strong> (418) 401-0509
+Fax : 
 
 Courriel : cnappert@videotron.ca
 
@@ -72,9 +72,9 @@ Nom : Casse-Croûte Chez Punch Express
 
 Adresse : 1803, rue Principale , Saint-Gilles, G0S 2P0
 
-Téléphone principal : (418) 888-5684
+Téléphone principal : (418) 881-3950
 
-Fax : (418) 881-3950 | <strong>F.</strong> (418) 881-3920
+Fax : 
 
 Courriel : punchnanny@live.ca
 
@@ -94,9 +94,9 @@ Nom : Municipalité de N.-D.-S.-C. d'Issoudun
 
 Adresse : 314, rue Principale , N.-D.-S.-C. d'Issoudun, G0S 1L0
 
-Téléphone principal : (418) 728-2006
+Téléphone principal : (418) 926-3494
 
-Fax : (418) 926-3494 | <strong>F.</strong> (418) 926-2570
+Fax : (418) 728-2303
 
 Courriel : munissoudun@videotron.ca
 
@@ -116,30 +116,9 @@ Nom : Ferme Maraîchère Plaisance enr.
 
 Adresse : 7684, Marie-Victorin , Lotbinière, G0S 1S0
 
-Téléphone principal : (418) 703-0524<br/>
--													<a href="mailto: pplaisance@videotron.ca">pplaisance@videotron.ca</a><br/>
--													<a href="http://" target="_blank">
--																											</a>
--												</td>
--
--												<td class="companyInfo" width="50%">
--													<span class="serviceHeader">SERVICES : </span><span class="service"> Asperges, choux, carottes, navets, pommes de terre, oignons. </span><br/>
--													<span class="domaineHeader">DOMAINE D’ACTIVITÉ :</span><span class="domaine"> Agriculture</span><br/>
--													<span class="employesHeader">NOMBRE D’EMPLOI :</span><span class="employes"> 3												</td>
--											</span></td></tr>
- 											</tbody>
- 										</table>
- 									</div>
-@@ -7510,19 +7380,19 @@
- 											</td></tr>
- 											<tr>
- 												<td class="contactData" width="50%">
--													<span class="personneContactPrincipal">Hervé Barra</span><br/>
-+													<span class="personneContactPrincipal"></span>
- 													5050, Marie-Victorin , Saint-Antoine-de-Tilly, G0S 2C0<br/>
--													T. (418) 886-2979
+Téléphone principal : (418) 886-2979
 
-Fax : (418) 886-2979 | <strong>F.</strong>
+Fax : (418) 703-0524
 
 Courriel : pplaisance@videotron.ca
 
@@ -159,9 +138,9 @@ Nom : Écuries Namasté (Les)
 
 Adresse : 358, Bois-Franc Est , N.-D.-S.-C. d'Issoudun, G0S 1L0
 
-Téléphone principal : (418) 728-4696 ext
+Téléphone principal : (418) 596-2409
 
-Fax : (418) 596-2409 | <strong>F.</strong> (418) 596-3409
+Fax : 
 
 Courriel : info@ecuriesnamaste.com
 
@@ -181,30 +160,9 @@ Nom : Jardin des Gambades
 
 Adresse : 451, Bois-Franc Est , Saint-Apollinaire, G0S 2E0
 
-Téléphone principal : (418) 881-4298<br/>
--													<a href="mailto: roberttremblay@globetrotter.net">roberttremblay@globetrotter.net</a><br/>
--													<a href="http://" target="_blank">
--																											</a>
--												</td>
--
--												<td class="companyInfo" width="50%">
--													<span class="serviceHeader">SERVICES : </span><span class="service"> Visites guidées de jardins.</span><br/>
--													<span class="domaineHeader">DOMAINE D’ACTIVITÉ :</span><span class="domaine"> Tourisme/Récré-touristique</span><br/>
--													<span class="employesHeader">NOMBRE D’EMPLOI :</span><span class="employes"> 0												</td>
--											</span></td></tr>
- 											</tbody>
- 										</table>
- 									</div>
-@@ -8628,19 +8446,19 @@
- 											</td></tr>
- 											<tr>
- 												<td class="contactData" width="50%">
--													<span class="personneContactPrincipal">Patrick Marquis</span><br/>
-+													<span class="personneContactPrincipal"></span>
- 													495, rue Laurier , Saint-Apollinaire, G0S 2E0<br/>
--													T. (418) 881-0110
+Téléphone principal : (418) 881-0110
 
-Fax : (418) 881-0110 | <strong>F.</strong> (581) 415-0722
+Fax : (418) 881-4298
 
 Courriel : roberttremblay@globetrotter.net
 
@@ -224,9 +182,9 @@ Nom : Coiffure Lorraine Marois
 
 Adresse : 20, rue Demers , Saint-Apollinaire, G0S 2E0
 
-Téléphone principal : (418) 881-2754
+Téléphone principal : (418) 796-2447
 
-Fax : (418) 796-2447 | <strong>F.</strong>
+Fax : 
 
 Courriel : lorrainemarois19@gmail.com
 
@@ -246,9 +204,9 @@ Nom : Maryse Labonté, service de comptabilité
 
 Adresse : 1091, rang Sainte-Marie , Saint-Sylvestre, G0S 3C0
 
-Téléphone principal : (418) 596-2899
+Téléphone principal : (418) 881-4082 ext
 
-Fax : (418) 881-4082 ext  | <strong>F.</strong>
+Fax : (418) 596-2889
 
 Courriel : maryse.labonte@globetrotter.net
 
@@ -268,9 +226,9 @@ Nom : Installation Portes & Fenêtres Gilles Sévigny
 
 Adresse : 73, rue Roger , Saint-Apollinaire, G0S 2E0
 
-Téléphone principal : (418) 655-2041 ext
+Téléphone principal : (418) 728-3389
 
-Fax : (418) 728-3389 | <strong>F.</strong> (418) 728-5147
+Fax : 
 
 Courriel : gillessev@hotmail.com
 
@@ -290,9 +248,9 @@ Nom : Dotmedias
 
 Adresse : 128, rue Saint-Pierre , Laurier-Station, G0S 1N0
 
-Téléphone principal : (418) 261-8996 ext
+Téléphone principal : (418) 728-1298 ext
 
-Fax : (418) 728-1298 ext  | <strong>F.</strong>
+Fax : 
 
 Courriel : samuelrb@dotmedias.com
 
@@ -312,9 +270,9 @@ Nom : Rendez-vous d'autrefois (Les)
 
 Adresse : 3859, chemin de Tilly , Saint-Antoine-de-Tilly, G0S 2C0
 
-Téléphone principal : (418) 886-4286
+Téléphone principal : (418) 401-1200
 
-Fax : (418) 401-1200 | <strong>F.</strong>
+Fax : 
 
 Courriel : michpoitras@videotron.ca
 
@@ -334,9 +292,9 @@ Nom : Entreprises Maryse Côté (Les)
 
 Adresse : 166, route Ste-Catherine, Saint-Sylvestre, G0S 3C0
 
-Téléphone principal : (418) 596-1299
+Téléphone principal : (418) 888-1300
 
-Fax : (418) 888-1300 | <strong>F.</strong> (418) 888-1301
+Fax : 
 
 Courriel : lalouve1331@hotmail.com
 
@@ -356,9 +314,9 @@ Nom : Carrossier Expert St-Narcisse inc.
 
 Adresse : 459, rue Moore , Saint-Narcisse-de-Beaurivage, G0S 1W0
 
-Téléphone principal : (581) 223-8686 ext
+Téléphone principal : (418) 728-3788
 
-Fax : (418) 728-3788 | <strong>F.</strong>
+Fax : (581) 223-8787
 
 Courriel : carrossierstnarcisse@gmail.com
 
@@ -378,9 +336,9 @@ Nom : Clinique d'orthothérapie Martin Turcotte
 
 Adresse : 83, rue des Lilas , Saint-Apollinaire, G0S 2E0
 
-Téléphone principal : (418) 881-3881 ext
+Téléphone principal : (418) 728-8016 ext
 
-Fax : </span> Massothérapie, orthothérapie, biokinergie et kinésithérapie.
+Fax : 
 
 Courriel : 
 
@@ -400,9 +358,9 @@ Nom : Caron Voyage
 
 Adresse : 405, route 273, local 105, Saint-Apollinaire, G0S 2E0
 
-Téléphone principal : (581) 999-1155 ext
+Téléphone principal : (418) 255-0193 ext
 
-Fax : (418) 255-0193 ext  | <strong>F.</strong>
+Fax : 
 
 Courriel : info@caronvoyage.com
 
@@ -422,9 +380,9 @@ Nom : Cielle Illustrations
 
 Adresse : 90 rue des bouleaux , Saint-Apollinaire, G0S 2E0
 
-Téléphone principal : (418) 454-2949 ext
+Téléphone principal : (418) 999-1809 ext
 
-Fax : (418) 999-1809 ext  | <strong>F.</strong>
+Fax : 
 
 Courriel : cielle.illustrations@gmail.com
 

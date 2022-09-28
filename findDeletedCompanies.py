@@ -39,15 +39,21 @@ def getAddress(data, startingIndex):
     return data[firstIndex:secondIndex].strip()
 
 def getPhone(data, startingIndex):
-    indexes = findElementsIndexesInOrder(data, ['contactData', '-', '\n', '-', '\n', '-', '(', '|'], startingIndex)
+    indexes = findElementsIndexesInOrder(data, ['contactData', '+', '\n', '+', '\n', '+', '(', '|'], startingIndex)
+    indexes2 = findElementsIndexesInOrder(data, ['contactData', '+', '\n', '+', '\n', '+', '(', '<br/>'], startingIndex)
     firstIndex = indexes[6]
     secondIndex = indexes[7]
+    if indexes[7] > indexes2[7]:
+        secondIndex = indexes2[7]
     return data[firstIndex:secondIndex].strip()
 
 def getFax(data, startingIndex):
-    indexes = findElementsIndexesInOrder(data, ['contactData', '-', '\n', '-', '\n', '-', '|', '</strong', '>', '<br/>'], startingIndex)
-    firstIndex = indexes[8] + 1
-    secondIndex = indexes[9]
+    indexes = findElementsIndexesInOrder(data, ['contactData', '-', '\n', '-', '\n', '-', '|', '(', '<br/>'], startingIndex)
+    indexes2 = findElementsIndexesInOrder(data, ['contactData', '-', '\n', '-', '\n', '-', '|', '<br/>'], startingIndex)
+    firstIndex = indexes[7]
+    secondIndex = indexes[8]
+    if indexes[8] > indexes2[7]:
+        return '' 
     return data[firstIndex:secondIndex].strip()
 
 def getMail(data, startingIndex):
