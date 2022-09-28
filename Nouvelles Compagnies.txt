@@ -1,34 +1,34 @@
 Nombre de nouvelles compagnies : 3
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : Kiosque Marjolaine R. Roy
-Adresse : 91, rue Principale , Saint-Flavien, G0S 2M0
-Téléphone principal : (418) 369-9066 ext
+Nom : Doxia
+Adresse : 15100 boulevard Valcartier, Extérieur, G2A 0A1
+Téléphone principal : (581) 703-1366 ext
 Fax : 
-Courriel : marjoroy1983@gmail.com
-Site web : 
-Service(s) : Production et vente de fruits et légumes.
-Domaine : Agriculture
-Nombre d'employés : 3
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--------------- NOUVELLE ENTREPRISE : ------------
-Nom : Atelier Mobile K.B. inc. (L')
-Adresse : 282, rue Thibodeau, Sainte-Croix, G0S 2H0
-Téléphone principal : (418) 955-2071 ext
-Fax : 
-Courriel : contact@atelierautomobile.ca
-Site web : http://https://atelierautomobile.ca/
-Service(s) : À l’Atelier Mobile K.B.  nous savons à quel point il est difficile de trouver une disponibilité au garage pour l’entretenir et la réparation de votre voiture. Nous somme différents nous nous engageons à vous le prouver!   - Nos services (filtres automobiles, batteries, pneus, freins, voyant moteur et autres) sont offert pour toutes les marques et modèles de voitures. - Nous avons plusieurs disponibilités de jour, de soir et même les fins de semaine. - Que ce soit à votre domicile ou sur votre lieu de travail, nous somme en mesure d’effectuer le travail.
+Courriel : info@doxia.ca
+Site web : http://https://www.doxia.ca/
+Service(s) : Revendeur Microsoft autorisé. Service d'accompagnement et formation informatique
 Domaine : Services/Conseils
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -------------- NOUVELLE ENTREPRISE : ------------
-Nom : TechJig Inc
-Adresse : 43, rue Terry-Fox, Saint-Apollinaire, G0S 2E0
-Téléphone principal : (581) 991-7723 ext
+Nom : Ferme La houle
+Adresse : 899, 3e rang, Val-Alain,
+Téléphone principal : (418) 476-8072 ext
 Fax : 
-Courriel : 
-Site web : 
-Service(s) : Fabrication de robots collaboratifs.
-Domaine : 
+Courriel : alex.desormeaux@outlook.com
+Site web : http://https://fermelahoule.com/
+Service(s) : 
+Domaine : Agriculture
+Nombre d'employés : 0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------------- NOUVELLE ENTREPRISE : ------------
+Nom : D2Ti inc
+Adresse : , Saint-Agapit, G0S 1Z0
+Téléphone principal : (418) 476-8072 ext
+Fax : 
+Courriel : info@d2ti.ca
+Site web : http://https://www.d2ti.ca/#section-home
+Service(s) : Services de réseautique, TI et télécom. Offre du soutien techinque ainsi que l'hébergement de données Micorsoft avec des partenaires
+Domaine : Services/Conseils
 Nombre d'employés : 0
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
