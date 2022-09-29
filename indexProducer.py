@@ -12,8 +12,9 @@ def getFormattedDataForHTMLDocument(data) :
     viewport = '<meta name="viewport" content="width=device-width">\n'
     css = '<link rel="stylesheet" href="index.css">'
     head = "<head>\n\t\t\t\t" + utf8meta + compatible + title + description + viewport + css + "\n</head>\n" 
-    script = '\n<script src="index.js"></script>\n'
-    body = "<body>\n" + data + script + "\n</body>"
+    newCompaniesScript = '\n<script src="./newCompanies.js"></script>'
+    script = '\n<script src="./index.js"></script>\n'
+    body = "<body>\n" + data + newCompaniesScript + script + "\n</body>"
     return head + body
 
 def createIndex(data) :

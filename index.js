@@ -132,6 +132,22 @@ function sortAlphabetically(companies) {
     return copy;
 }
 
+function indicateNew(company) {
+    let indicateNew = getParameter('indicateNew') == '1';
+    if(!indicateNew) 
+        return company;
+    companyName = company.getElementsByClassName('companyHeader')[0].innerText;
+    if(isNewCompany(companyName)) {
+        companyName = "(Nouvelle entreprise!) - " + companyName;
+        company.getElementsByClassName('companyHeader')[0].innerText = companyName;
+    }
+    return company;
+}
+
+function isNewCompany(companyName) {
+    return newCompanies.includes(companyName);
+}
+
 function sortByDomain(domains, companies) {
     let companiesArray = Array.from(companies);
     let companyList = document.getElementsByClassName('companyList')[0];
@@ -148,6 +164,7 @@ function sortByDomain(domains, companies) {
         let count = 0;
         for(let j = 0; j < companiesArray.length; j++) {
             let company = companiesArray[j];
+            company = indicateNew(company);
             let companyDomain = company.getElementsByClassName('domaine')[0].innerText.trim();
             if(companyDomain === currentDomain) {
                 elementToBePushed.appendChild(company);
@@ -210,6 +227,7 @@ function sortAndAddByMunicipality(municipalities, companies) {
         let count = 0;
         for(let j = 0; j < companiesArray.length; j++) {
             let company = companiesArray[j];
+            company = indicateNew(company);
             let companyInfo = company.getElementsByTagName('td')[0].innerText;
             if(companyInfo.indexOf(currentMunicipality) > -1 || companyInfo.indexOf(currentPostalCode) > -1) {
                 elementToBePushed.appendChild(company);
@@ -299,6 +317,8 @@ function manageVisuals() {
 function showForm() {
     let companyListContainer = document.getElementsByClassName("companyListContainer")[0];
     companyListContainer.remove();
+
+    //Filter
     let filterModeDiv = document.createElement('div');
     let filterModeLabel = document.createElement('label');
     filterModeLabel.innerText = "Mode de filtrage : domaine (coché) ou municipalité (décoché)"
@@ -306,6 +326,17 @@ function showForm() {
     filterMode.type = "checkbox";
     filterModeDiv.append(filterModeLabel);
     filterModeDiv.append(filterMode);
+
+    //New label
+    let indicateNewDiv = document.createElement('div');
+    let indicateNewLabel = document.createElement('label');
+    indicateNewLabel.innerText = "Indiquer les nouvelles entreprises avec (Nouvelle entreprise!): Oui (coché) ou Non (décoché)"
+    let indicateNew = document.createElement('input');
+    indicateNew.type = "checkbox";
+    indicateNewDiv.append(indicateNewLabel);
+    indicateNewDiv.append(indicateNew);
+
+    //Domain
     let domainDiv = document.createElement('div');
     let domainLabel = document.createElement('label');
     domainLabel.innerText = "Domaine : ";
@@ -314,6 +345,8 @@ function showForm() {
     domainDiv.append(domainLabel);
     domainDiv.append(domainInput);
     domainInput.disabled = true;
+
+    //Municipality
     let municipalityDiv = document.createElement('div');
     let municipalityLabel = document.createElement('label');
     municipalityLabel.innerText = "Municipalité : ";
@@ -321,6 +354,7 @@ function showForm() {
     municipalityInput.id = "municipalityInput";
     municipalityDiv.append(municipalityLabel);
     municipalityDiv.append(municipalityInput);
+
     filterMode.addEventListener("change", () => {
         if(filterMode.checked) {
             municipalityInput.disabled = true;
@@ -331,19 +365,22 @@ function showForm() {
             domainInput.disabled = true;
         }
     })
+
+    //Submit button
     let buttonDiv = document.createElement('div');
     let button = document.createElement('button');
     button.id = "buttonInput";
     button.innerText = "Filtrer";
     button.addEventListener("click", () => {
         let baseURL = getURLWithoutParams();
-        let paramURL = getParamURLFromInputs(municipalityInput.value, domainInput.value, filterMode.checked ? 1 : 0);
+        let paramURL = getParamURLFromInputs(municipalityInput.value, domainInput.value, filterMode.checked ? 1 : 0, indicateNew.checked ? 1 : 0);
         let completeURL = baseURL + paramURL;
         window.location.href = completeURL;
     })
     buttonDiv.append(button);
     let formDiv = document.createElement("div");
     formDiv.id = "filterForm";
+    formDiv.append(indicateNewDiv)
     formDiv.append(filterModeDiv)
     formDiv.append(domainDiv);
     formDiv.append(municipalityDiv);
@@ -352,7 +389,7 @@ function showForm() {
     document.body.id="formBody";
 }
 
-function getParamURLFromInputs(municipality, domain, mode) {
+function getParamURLFromInputs(municipality, domain, mode, indicateNew) {
     let baseURL = "?mode="
     let url = baseURL;
     if(mode == 0) {
@@ -367,6 +404,10 @@ function getParamURLFromInputs(municipality, domain, mode) {
         if(domain) {
             url += "&domain=" + domain;
         }
+    }
+
+    if(indicateNew == 1) {
+        url += "&indicateNew=1"; 
     }
 
     return url;

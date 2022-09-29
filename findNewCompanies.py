@@ -126,11 +126,21 @@ def findElementsIndexesInOrder(data, arrayOfElementsToFind, startingIndex):
         arrayOfElementsIndexes.append(found)
     return arrayOfElementsIndexes
 
+def insertIntoJavascript(formattedData):
+    javascriptVariable = "const newCompanies = `" + formattedData + "`;"
+    return javascriptVariable
 
 def printToFileNewCompanies(newCompanies, outputFile):
     with open(outputFile, 'w', encoding="utf8") as file:
         formattedData = getFormattedDataForTextDocument(newCompanies)
         file.write(formattedData)
+
+def printToJavaScriptFileNewCompanies(newCompanies, outputJavascriptFileName):
+    with open(outputJavascriptFileName, 'w', encoding="utf8") as file:
+        formattedData = getFormattedDataForTextDocument(newCompanies)
+        javascriptString = insertIntoJavascript(formattedData)
+        file.write(javascriptString)
+
 
 def getFormattedDataForTextDocument(newCompanies):
     out = "Nombre de nouvelles compagnies : " + str(len(newCompanies))
@@ -154,7 +164,9 @@ def getFormattedDataForTextDocument(newCompanies):
 
 
 tempFileName = 'difflog.txt'
+outputJavascriptFileName = 'newCompanies.js'
 outputFileName = 'Nouvelles Compagnies.txt'
 data = getDataFromFile(tempFileName)
 newCompanies = getNewCompanies(data)
+printToJavaScriptFileNewCompanies(newCompanies, outputJavascriptFileName)
 printToFileNewCompanies(newCompanies, outputFileName)

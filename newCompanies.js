@@ -1,0 +1,1 @@
+const newCompanies = `Nombre de nouvelles compagnies : 0`;
