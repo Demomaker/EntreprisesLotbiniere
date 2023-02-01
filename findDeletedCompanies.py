@@ -155,4 +155,6 @@ tempFileName = 'difflog.txt'
 outputFileName = 'Compagnies Supprimées.txt'
 data = getDataFromFile(tempFileName)
 newCompanies = getNewCompanies(data)
-printToFileNewCompanies(newCompanies, outputFileName)
+
+if (len(newCompanies) > 0):
+    printToFileNewCompanies(newCompanies, outputFileName)

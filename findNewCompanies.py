@@ -168,5 +168,6 @@ outputJavascriptFileName = 'newCompanies.js'
 outputFileName = 'Nouvelles Compagnies.txt'
 data = getDataFromFile(tempFileName)
 newCompanies = getNewCompanies(data)
-printToJavaScriptFileNewCompanies(newCompanies, outputJavascriptFileName)
-printToFileNewCompanies(newCompanies, outputFileName)
+if (len(newCompanies) > 0) :
+    printToJavaScriptFileNewCompanies(newCompanies, outputJavascriptFileName)
+    printToFileNewCompanies(newCompanies, outputFileName)
